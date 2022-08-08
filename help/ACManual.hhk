@@ -1,0 +1,2003 @@
+<HTML><HEAD>
+</HEAD><BODY><UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1 Get on with AC">
+<PARAM NAME="Local" VALUE="1 AC介绍\1 Get on with AC.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-1 AC介绍.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-10 在AC上构建多数据循环测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-11 案例：使用AC实现测试代码版本管理访问及运行.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-2 AC架构.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-3 ACFramework的程序架构.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-4 AC Step1 define TestJobFile.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-5 AC Step2(Optional) define EnvFile.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-6 AC Step3(Optional) define ConfigFile.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-7 AC Step4 Run and Check ACReport.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-8 AC Use Case Bank Trunsaction.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-9 运行后任务邮件通知及FTP上传.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2 在AC上开发运行QTP测试">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2 在AC上开发运行QTP测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-1 Global Variables.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2 Utility_Function Class.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-1 Function LaunchApp (params, strApplication).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-10 Function EnvInitByLang(strLanguage,strTestStartTime).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-11 Function EnvClearup.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-12 Function AddToTestResult (constStatus, strDetails).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-13 Function ReportPass (strDetails).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-14 Function ReportWarning (strDetails).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-15 Function ReportFail (strDetails).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-16 Function LoadQAPropertyData(strFileName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-17 Function IsValidObject (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-18 Function VerifyExist (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-19 Function VerifyEnabled (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-2 Function SetTimeout(intTimeout).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-20  Function VerifyProperty (obj, strPropertyName, strExpectedValue).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-21 Function OutputProperty (obj, strPropertyName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-22 Function VerifyValue (obj, ExpectedValue).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-23 Function VerifyText (obj, ExpectedText).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-24 Function VerifyChecked (obj, strExpectedChecked).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-25 Function VerifyDate (obj, ExpectedDate).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-26 Function VerifySelection (obj, strExpectedSelection).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-27 Function VerifyPosition (obj, strExpectedPosition).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-28 Function GetValueProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-29 Function GetDateProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-3 Function SwitchClientType(strType).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-30 Function GetTextProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-31 Function GetCheckedProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-32 Function GetSelectionProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-33 Function GetPositionProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-34 Function CreatePngFileName().html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-35 Function GetTime().html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-36 Function VerifyDateFormat(strDate).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-37 Function VerifyNumberFormat(strNumber).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-38 Function VerifyCurrencyFormat(strCurrency).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-39 Function RegExpTest(patrn, strng).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-4 Function GetEnvVariable(strVName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-40 Function ArraySearch(arrayItems, strItemName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-41 Function SetGlobalData(strKey,strValue).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-42 Function FileNameFromDate(strLanguage).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-43 Function AddToTestLog(strFileName,strMsg).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-44 Function WriteLog(strMsg).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-45 Function GetCurrDir().html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-46 Function GetTestStartTime().html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-47 Function getErrCode.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-48 Function getErrMsg.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-49 Function LoadDataFromFile (strFileName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-5 Function GetRegVariable(strKey).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-50 Function LoadTestDataByLang(strFileName,strLanguage).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-6 Function GetProductVersion(strAppName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-7 Function UnzipFile(strFileName,strDesDir).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-8 Function UnzipQTPscreenshot(strSrcDir,strDesDir).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-9 Function EnvInit.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3 在AC上开发运行JAVA测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-1 Method BeginTestCase.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-10 Method getDataProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-2 Method endTestCase.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-3 Method beginTest.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-4 Method reportPass.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-5 Method reportFail.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-6 Method setOutputValue.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-7 Method getInputValue.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-8 Method getEnvProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-9 Method getConfProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Nifty Corners: HTML CSS rounded corners">
+<PARAM NAME="Local" VALUE="3.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4 在AC上开发selenium测试">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4 在AC上开发selenium测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-1 Method pass.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-2 Method fail.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-3 Method getInputValue.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-4 Method setOutputValue.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-5 Method getEnvProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-6 Method getConfProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-7 Method getDataProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="5 在AC上开发运行Junit测试\5 在AC上开发运行Junit测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="6 在AC上开发运行ANT测试\6 在AC上开发运行ANT测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="7 在AC上开发运行DB测试\7 在AC上开发运行DB测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="8 在AC上开发webService测试\8 在AC上开发webservice测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AC">
+<PARAM NAME="Local" VALUE="9 常见问题及解决\9 常见问题及解决.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="cover">
+<PARAM NAME="Local" VALUE="cover.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Hello SyntaxHighlighter">
+<PARAM NAME="Local" VALUE="highlighter\index.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="sass">
+<PARAM NAME="Local" VALUE="highlighter\tests\brushes\sass.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SyntaxHighlighter Brushes Tests">
+<PARAM NAME="Local" VALUE="highlighter\tests\brushes_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="001_basic">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\001_basic.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="002_brushes">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\002_brushes.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="003_script_tag">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\003_script_tag.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="004_url_parsing">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\004_url_parsing.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="005_no_gutter">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\005_no_gutter.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="006_pad_line_numbers">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\006_pad_line_numbers.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="007_collapse">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\007_collapse.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="007_collapse_interaction">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\007_collapse_interaction.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="008_first_line">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\008_first_line.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="009_class_name">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\009_class_name.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="010_highlight">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\010_highlight.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="011_smart_tabs">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\011_smart_tabs.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="012_server_side">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\012_server_side.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="013_html_script">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\013_html_script.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="014_legacy">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\014_legacy.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SyntaxHighlighter Highlight Tests">
+<PARAM NAME="Local" VALUE="highlighter\tests\syntaxhighlighter_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SyntaxHighlighter Theme Tests">
+<PARAM NAME="Local" VALUE="highlighter\tests\theme_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Hello SyntaxHighlighter">
+<PARAM NAME="Local" VALUE="lighter\index.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="sass">
+<PARAM NAME="Local" VALUE="lighter\tests\brushes\sass.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SyntaxHighlighter Brushes Tests">
+<PARAM NAME="Local" VALUE="lighter\tests\brushes_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="001_basic">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\001_basic.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="002_brushes">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\002_brushes.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="003_script_tag">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\003_script_tag.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="004_url_parsing">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\004_url_parsing.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="005_no_gutter">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\005_no_gutter.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="006_pad_line_numbers">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\006_pad_line_numbers.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="007_collapse">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\007_collapse.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="007_collapse_interaction">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\007_collapse_interaction.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="008_first_line">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\008_first_line.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="009_class_name">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\009_class_name.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="010_highlight">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\010_highlight.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="011_smart_tabs">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\011_smart_tabs.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="012_server_side">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\012_server_side.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="013_html_script">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\013_html_script.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="014_legacy">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\014_legacy.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SyntaxHighlighter Highlight Tests">
+<PARAM NAME="Local" VALUE="lighter\tests\syntaxhighlighter_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SyntaxHighlighter Theme Tests">
+<PARAM NAME="Local" VALUE="lighter\tests\theme_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="NewTopic">
+<PARAM NAME="Local" VALUE="NewTopic.htm">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE=" new document ">
+<PARAM NAME="Local" VALUE="Untitled-2.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1 Get on with AC">
+<PARAM NAME="Local" VALUE="1 AC介绍\1 Get on with AC.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-1 AC介绍">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-1 AC介绍.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-10 在AC上构建多数据循环测试">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-10 在AC上构建多数据循环测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-11 案例：使用AC实现测试代码版本管理访问及运行">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-11 案例：使用AC实现测试代码版本管理访问及运行.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-2 AC架构">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-2 AC架构.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-3 ACFramework的程序架构">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-3 ACFramework的程序架构.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-4 AC Step1 define TestJobFile">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-4 AC Step1 define TestJobFile.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-5 AC Step2(Optional) define EnvFile">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-5 AC Step2(Optional) define EnvFile.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-6 AC Step3(Optional) define ConfigFile">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-6 AC Step3(Optional) define ConfigFile.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-7 AC Step4 Run and Check ACReport">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-7 AC Step4 Run and Check ACReport.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-8 AC Use Case Bank Trunsaction">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-8 AC Use Case Bank Trunsaction.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-9 运行后任务邮件通知及FTP上传">
+<PARAM NAME="Local" VALUE="1 AC介绍\1-9 运行后任务邮件通知及FTP上传.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2 在AC上开发运行QTP测试">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2 在AC上开发运行QTP测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-1 Global Variables">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-1 Global Variables.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2 Utility_Function Class">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2 Utility_Function Class.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-1 Function LaunchApp (params, strApplication)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-1 Function LaunchApp (params, strApplication).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-10 Function EnvInitByLang(strLanguage,strTestStartTime)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-10 Function EnvInitByLang(strLanguage,strTestStartTime).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-11 Function EnvClearup">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-11 Function EnvClearup.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-12 Function AddToTestResult (constStatus, strDetails)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-12 Function AddToTestResult (constStatus, strDetails).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-13 Function ReportPass (strDetails)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-13 Function ReportPass (strDetails).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-14 Function ReportWarning (strDetails)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-14 Function ReportWarning (strDetails).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-15 Function ReportFail (strDetails)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-15 Function ReportFail (strDetails).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-16 Function LoadQAPropertyData(strFileName)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-16 Function LoadQAPropertyData(strFileName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-17 Function IsValidObject (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-17 Function IsValidObject (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-18 Function VerifyExist (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-18 Function VerifyExist (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-19 Function VerifyEnabled (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-19 Function VerifyEnabled (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-2 Function SetTimeout(intTimeout)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-2 Function SetTimeout(intTimeout).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-20  Function VerifyProperty (obj, strPropertyName, strExpectedValue)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-20  Function VerifyProperty (obj, strPropertyName, strExpectedValue).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-21 Function OutputProperty (obj, strPropertyName)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-21 Function OutputProperty (obj, strPropertyName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-22 Function VerifyValue (obj, ExpectedValue)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-22 Function VerifyValue (obj, ExpectedValue).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-23 Function VerifyText (obj, ExpectedText)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-23 Function VerifyText (obj, ExpectedText).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-24 Function VerifyChecked (obj, strExpectedChecked)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-24 Function VerifyChecked (obj, strExpectedChecked).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-25 Function VerifyDate (obj, ExpectedDate)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-25 Function VerifyDate (obj, ExpectedDate).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-26 Function VerifySelection (obj, strExpectedSelection)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-26 Function VerifySelection (obj, strExpectedSelection).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-27 Function VerifyPosition (obj, strExpectedPosition)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-27 Function VerifyPosition (obj, strExpectedPosition).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-28 Function GetValueProperty (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-28 Function GetValueProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-29 Function GetDateProperty (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-29 Function GetDateProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-3 Function SwitchClientType(strType)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-3 Function SwitchClientType(strType).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-30 Function GetTextProperty (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-30 Function GetTextProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-31 Function GetCheckedProperty (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-31 Function GetCheckedProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-32 Function GetSelectionProperty (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-32 Function GetSelectionProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-33 Function GetPositionProperty (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-33 Function GetPositionProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-34 Function CreatePngFileName()">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-34 Function CreatePngFileName().html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-35 Function GetTime()">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-35 Function GetTime().html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-36 Function VerifyDateFormat(strDate)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-36 Function VerifyDateFormat(strDate).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-37 Function VerifyNumberFormat(strNumber)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-37 Function VerifyNumberFormat(strNumber).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-38 Function VerifyCurrencyFormat(strCurrency)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-38 Function VerifyCurrencyFormat(strCurrency).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-39 Function RegExpTest(patrn, strng)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-39 Function RegExpTest(patrn, strng).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-4 Function GetEnvVariable(strVName)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-4 Function GetEnvVariable(strVName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-40 Function ArraySearch(arrayItems, strItemName)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-40 Function ArraySearch(arrayItems, strItemName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-41 Function SetGlobalData(strKey,strValue)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-41 Function SetGlobalData(strKey,strValue).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-42 Function FileNameFromDate(strLanguage)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-42 Function FileNameFromDate(strLanguage).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-43 Function AddToTestLog(strFileName,strMsg)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-43 Function AddToTestLog(strFileName,strMsg).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-44 Function WriteLog(strMsg)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-44 Function WriteLog(strMsg).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-45 Function GetCurrDir()">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-45 Function GetCurrDir().html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-46 Function GetTestStartTime()">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-46 Function GetTestStartTime().html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-47 Function getErrCode">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-47 Function getErrCode.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-48 Function getErrMsg">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-48 Function getErrMsg.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-49 Function LoadDataFromFile (strFileName)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-49 Function LoadDataFromFile (strFileName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-5 Function GetRegVariable(strKey)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-5 Function GetRegVariable(strKey).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-50 Function LoadTestDataByLang(strFileName,strLanguage)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-50 Function LoadTestDataByLang(strFileName,strLanguage).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-6 Function GetProductVersion(strAppName)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-6 Function GetProductVersion(strAppName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-7 Function UnzipFile(strFileName,strDesDir)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-7 Function UnzipFile(strFileName,strDesDir).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-8 Function UnzipQTPscreenshot(strSrcDir,strDesDir)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-8 Function UnzipQTPscreenshot(strSrcDir,strDesDir).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-9 Function EnvInit">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-9 Function EnvInit.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3 在AC上开发运行JAVA测试">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3 在AC上开发运行JAVA测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-1 Method BeginTestCase">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-1 Method BeginTestCase.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-10 Method getDataProperty">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-10 Method getDataProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-2 Method endTestCase">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-2 Method endTestCase.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-3 Method beginTest">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-3 Method beginTest.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-4 Method reportPass">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-4 Method reportPass.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-5 Method reportFail">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-5 Method reportFail.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-6 Method setOutputValue">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-6 Method setOutputValue.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-7 Method getInputValue">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-7 Method getInputValue.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-8 Method getEnvProperty">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-8 Method getEnvProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-9 Method getConfProperty">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-9 Method getConfProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3">
+<PARAM NAME="Local" VALUE="3.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4 在AC上开发selenium测试">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4 在AC上开发selenium测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-1 Method pass">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-1 Method pass.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-2 Method fail">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-2 Method fail.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-3 Method getInputValue">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-3 Method getInputValue.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-4 Method setOutputValue">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-4 Method setOutputValue.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-5 Method getEnvProperty">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-5 Method getEnvProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-6 Method getConfProperty">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-6 Method getConfProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-7 Method getDataProperty">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-7 Method getDataProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="5 在AC上开发运行Junit测试">
+<PARAM NAME="Local" VALUE="5 在AC上开发运行Junit测试\5 在AC上开发运行Junit测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="6 在AC上开发运行ANT测试">
+<PARAM NAME="Local" VALUE="6 在AC上开发运行ANT测试\6 在AC上开发运行ANT测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="7 在AC上开发运行DB测试">
+<PARAM NAME="Local" VALUE="7 在AC上开发运行DB测试\7 在AC上开发运行DB测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="8 在AC上开发webservice测试">
+<PARAM NAME="Local" VALUE="8 在AC上开发webService测试\8 在AC上开发webservice测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="9 常见问题及解决">
+<PARAM NAME="Local" VALUE="9 常见问题及解决\9 常见问题及解决.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="cover">
+<PARAM NAME="Local" VALUE="cover.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="index">
+<PARAM NAME="Local" VALUE="highlighter\index.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="sass">
+<PARAM NAME="Local" VALUE="highlighter\tests\brushes\sass.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="brushes_tests">
+<PARAM NAME="Local" VALUE="highlighter\tests\brushes_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="001_basic">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\001_basic.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="002_brushes">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\002_brushes.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="003_script_tag">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\003_script_tag.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="004_url_parsing">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\004_url_parsing.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="005_no_gutter">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\005_no_gutter.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="006_pad_line_numbers">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\006_pad_line_numbers.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="007_collapse">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\007_collapse.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="007_collapse_interaction">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\007_collapse_interaction.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="008_first_line">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\008_first_line.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="009_class_name">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\009_class_name.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="010_highlight">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\010_highlight.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="011_smart_tabs">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\011_smart_tabs.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="012_server_side">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\012_server_side.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="013_html_script">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\013_html_script.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="014_legacy">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\014_legacy.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="syntaxhighlighter_tests">
+<PARAM NAME="Local" VALUE="highlighter\tests\syntaxhighlighter_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="theme_tests">
+<PARAM NAME="Local" VALUE="highlighter\tests\theme_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="index">
+<PARAM NAME="Local" VALUE="lighter\index.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="sass">
+<PARAM NAME="Local" VALUE="lighter\tests\brushes\sass.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="brushes_tests">
+<PARAM NAME="Local" VALUE="lighter\tests\brushes_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="001_basic">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\001_basic.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="002_brushes">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\002_brushes.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="003_script_tag">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\003_script_tag.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="004_url_parsing">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\004_url_parsing.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="005_no_gutter">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\005_no_gutter.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="006_pad_line_numbers">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\006_pad_line_numbers.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="007_collapse">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\007_collapse.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="007_collapse_interaction">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\007_collapse_interaction.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="008_first_line">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\008_first_line.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="009_class_name">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\009_class_name.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="010_highlight">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\010_highlight.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="011_smart_tabs">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\011_smart_tabs.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="012_server_side">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\012_server_side.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="013_html_script">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\013_html_script.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="014_legacy">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\014_legacy.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="syntaxhighlighter_tests">
+<PARAM NAME="Local" VALUE="lighter\tests\syntaxhighlighter_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="theme_tests">
+<PARAM NAME="Local" VALUE="lighter\tests\theme_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="NewTopic">
+<PARAM NAME="Local" VALUE="NewTopic.htm">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Untitled-2">
+<PARAM NAME="Local" VALUE="Untitled-2.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1 AC入门">
+<PARAM NAME="Local" VALUE="1 AC入门\1 AC入门.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-1 AC介绍">
+<PARAM NAME="Local" VALUE="1 AC入门\1-1 AC介绍.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-10 在AC上构建多数据循环测试">
+<PARAM NAME="Local" VALUE="1 AC入门\1-10 在AC上构建多数据循环测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-11 案例：使用AC实现测试代码版本管理访问及运行">
+<PARAM NAME="Local" VALUE="1 AC入门\1-11 案例：使用AC实现测试代码版本管理访问及运行.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-2 AC架构">
+<PARAM NAME="Local" VALUE="1 AC入门\1-2 AC架构.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-3 ACFramework的程序架构">
+<PARAM NAME="Local" VALUE="1 AC入门\1-3 ACFramework的程序架构.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-4 AC Step1 define TestJobFile">
+<PARAM NAME="Local" VALUE="1 AC入门\1-4 AC Step1 define TestJobFile.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-5 AC Step2(Optional) define EnvFile">
+<PARAM NAME="Local" VALUE="1 AC入门\1-5 AC Step2(Optional) define EnvFile.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-6 AC Step3(Optional) define ConfigFile">
+<PARAM NAME="Local" VALUE="1 AC入门\1-6 AC Step3(Optional) define ConfigFile.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-7 AC Step4 Run and Check ACReport">
+<PARAM NAME="Local" VALUE="1 AC入门\1-7 AC Step4 Run and Check ACReport.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-8 AC Use Case Bank Trunsaction">
+<PARAM NAME="Local" VALUE="1 AC入门\1-8 AC Use Case Bank Trunsaction.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-9 运行后任务邮件通知及FTP上传">
+<PARAM NAME="Local" VALUE="1 AC入门\1-9 运行后任务邮件通知及FTP上传.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2 在AC上开发运行QTP测试">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2 在AC上开发运行QTP测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-1 Global Variables">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-1 Global Variables.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2 Utility_Function Class">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2 Utility_Function Class.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-1 Function LaunchApp (params, strApplication)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-1 Function LaunchApp (params, strApplication).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-10 Function EnvInitByLang(strLanguage,strTestStartTime)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-10 Function EnvInitByLang(strLanguage,strTestStartTime).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-11 Function EnvClearup">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-11 Function EnvClearup.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-12 Function AddToTestResult (constStatus, strDetails)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-12 Function AddToTestResult (constStatus, strDetails).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-13 Function ReportPass (strDetails)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-13 Function ReportPass (strDetails).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-14 Function ReportWarning (strDetails)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-14 Function ReportWarning (strDetails).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-15 Function ReportFail (strDetails)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-15 Function ReportFail (strDetails).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-16 Function LoadQAPropertyData(strFileName)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-16 Function LoadQAPropertyData(strFileName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-17 Function IsValidObject (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-17 Function IsValidObject (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-18 Function VerifyExist (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-18 Function VerifyExist (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-19 Function VerifyEnabled (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-19 Function VerifyEnabled (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-2 Function SetTimeout(intTimeout)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-2 Function SetTimeout(intTimeout).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-20  Function VerifyProperty (obj, strPropertyName, strExpectedValue)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-20  Function VerifyProperty (obj, strPropertyName, strExpectedValue).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-21 Function OutputProperty (obj, strPropertyName)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-21 Function OutputProperty (obj, strPropertyName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-22 Function VerifyValue (obj, ExpectedValue)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-22 Function VerifyValue (obj, ExpectedValue).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-23 Function VerifyText (obj, ExpectedText)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-23 Function VerifyText (obj, ExpectedText).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-24 Function VerifyChecked (obj, strExpectedChecked)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-24 Function VerifyChecked (obj, strExpectedChecked).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-25 Function VerifyDate (obj, ExpectedDate)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-25 Function VerifyDate (obj, ExpectedDate).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-26 Function VerifySelection (obj, strExpectedSelection)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-26 Function VerifySelection (obj, strExpectedSelection).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-27 Function VerifyPosition (obj, strExpectedPosition)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-27 Function VerifyPosition (obj, strExpectedPosition).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-28 Function GetValueProperty (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-28 Function GetValueProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-29 Function GetDateProperty (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-29 Function GetDateProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-3 Function SwitchClientType(strType)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-3 Function SwitchClientType(strType).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-30 Function GetTextProperty (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-30 Function GetTextProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-31 Function GetCheckedProperty (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-31 Function GetCheckedProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-32 Function GetSelectionProperty (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-32 Function GetSelectionProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-33 Function GetPositionProperty (obj)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-33 Function GetPositionProperty (obj).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-34 Function CreatePngFileName()">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-34 Function CreatePngFileName().html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-35 Function GetTime()">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-35 Function GetTime().html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-36 Function VerifyDateFormat(strDate)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-36 Function VerifyDateFormat(strDate).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-37 Function VerifyNumberFormat(strNumber)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-37 Function VerifyNumberFormat(strNumber).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-38 Function VerifyCurrencyFormat(strCurrency)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-38 Function VerifyCurrencyFormat(strCurrency).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-39 Function RegExpTest(patrn, strng)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-39 Function RegExpTest(patrn, strng).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-4 Function GetEnvVariable(strVName)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-4 Function GetEnvVariable(strVName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-40 Function ArraySearch(arrayItems, strItemName)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-40 Function ArraySearch(arrayItems, strItemName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-41 Function SetGlobalData(strKey,strValue)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-41 Function SetGlobalData(strKey,strValue).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-42 Function FileNameFromDate(strLanguage)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-42 Function FileNameFromDate(strLanguage).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-43 Function AddToTestLog(strFileName,strMsg)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-43 Function AddToTestLog(strFileName,strMsg).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-44 Function WriteLog(strMsg)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-44 Function WriteLog(strMsg).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-45 Function GetCurrDir()">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-45 Function GetCurrDir().html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-46 Function GetTestStartTime()">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-46 Function GetTestStartTime().html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-47 Function getErrCode">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-47 Function getErrCode.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-48 Function getErrMsg">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-48 Function getErrMsg.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-49 Function LoadDataFromFile (strFileName)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-49 Function LoadDataFromFile (strFileName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-5 Function GetRegVariable(strKey)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-5 Function GetRegVariable(strKey).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-50 Function LoadTestDataByLang(strFileName,strLanguage)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-50 Function LoadTestDataByLang(strFileName,strLanguage).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-6 Function GetProductVersion(strAppName)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-6 Function GetProductVersion(strAppName).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-7 Function UnzipFile(strFileName,strDesDir)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-7 Function UnzipFile(strFileName,strDesDir).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-8 Function UnzipQTPscreenshot(strSrcDir,strDesDir)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-8 Function UnzipQTPscreenshot(strSrcDir,strDesDir).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-9 Function EnvInit">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-9 Function EnvInit.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3 在AC上开发运行JAVA测试">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3 在AC上开发运行JAVA测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-1 Method BeginTestCase">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-1 Method BeginTestCase.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-10 Method getDataProperty">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-10 Method getDataProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-2 Method endTestCase">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-2 Method endTestCase.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-3 Method beginTest">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-3 Method beginTest.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-4 Method reportPass">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-4 Method reportPass.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-5 Method reportFail">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-5 Method reportFail.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-6 Method setOutputValue">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-6 Method setOutputValue.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-7 Method getInputValue">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-7 Method getInputValue.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-8 Method getEnvProperty">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-8 Method getEnvProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-9 Method getConfProperty">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-9 Method getConfProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3">
+<PARAM NAME="Local" VALUE="3.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4 在AC上开发selenium测试">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4 在AC上开发selenium测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-1 Method pass">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-1 Method pass.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-2 Method fail">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-2 Method fail.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-3 Method getInputValue">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-3 Method getInputValue.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-4 Method setOutputValue">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-4 Method setOutputValue.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-5 Method getEnvProperty">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-5 Method getEnvProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-6 Method getConfProperty">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-6 Method getConfProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-7 Method getDataProperty">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-7 Method getDataProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="5 在AC上开发运行Junit测试">
+<PARAM NAME="Local" VALUE="5 在AC上开发运行Junit测试\5 在AC上开发运行Junit测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="6 在AC上开发运行ANT测试">
+<PARAM NAME="Local" VALUE="6 在AC上开发运行ANT测试\6 在AC上开发运行ANT测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="7 在AC上开发运行DB测试">
+<PARAM NAME="Local" VALUE="7 在AC上开发运行DB测试\7 在AC上开发运行DB测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="8 在AC上开发webservice测试">
+<PARAM NAME="Local" VALUE="8 在AC上开发webService测试\8 在AC上开发webservice测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="9 常见问题及解决">
+<PARAM NAME="Local" VALUE="9 常见问题及解决\9 常见问题及解决.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="cover">
+<PARAM NAME="Local" VALUE="cover.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="index">
+<PARAM NAME="Local" VALUE="highlighter\index.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="sass">
+<PARAM NAME="Local" VALUE="highlighter\tests\brushes\sass.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="brushes_tests">
+<PARAM NAME="Local" VALUE="highlighter\tests\brushes_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="001_basic">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\001_basic.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="002_brushes">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\002_brushes.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="003_script_tag">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\003_script_tag.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="004_url_parsing">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\004_url_parsing.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="005_no_gutter">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\005_no_gutter.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="006_pad_line_numbers">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\006_pad_line_numbers.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="007_collapse">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\007_collapse.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="007_collapse_interaction">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\007_collapse_interaction.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="008_first_line">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\008_first_line.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="009_class_name">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\009_class_name.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="010_highlight">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\010_highlight.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="011_smart_tabs">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\011_smart_tabs.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="012_server_side">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\012_server_side.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="013_html_script">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\013_html_script.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="014_legacy">
+<PARAM NAME="Local" VALUE="highlighter\tests\cases\014_legacy.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="syntaxhighlighter_tests">
+<PARAM NAME="Local" VALUE="highlighter\tests\syntaxhighlighter_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="theme_tests">
+<PARAM NAME="Local" VALUE="highlighter\tests\theme_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="index">
+<PARAM NAME="Local" VALUE="lighter\index.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="sass">
+<PARAM NAME="Local" VALUE="lighter\tests\brushes\sass.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="brushes_tests">
+<PARAM NAME="Local" VALUE="lighter\tests\brushes_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="001_basic">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\001_basic.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="002_brushes">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\002_brushes.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="003_script_tag">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\003_script_tag.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="004_url_parsing">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\004_url_parsing.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="005_no_gutter">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\005_no_gutter.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="006_pad_line_numbers">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\006_pad_line_numbers.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="007_collapse">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\007_collapse.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="007_collapse_interaction">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\007_collapse_interaction.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="008_first_line">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\008_first_line.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="009_class_name">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\009_class_name.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="010_highlight">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\010_highlight.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="011_smart_tabs">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\011_smart_tabs.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="012_server_side">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\012_server_side.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="013_html_script">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\013_html_script.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="014_legacy">
+<PARAM NAME="Local" VALUE="lighter\tests\cases\014_legacy.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="syntaxhighlighter_tests">
+<PARAM NAME="Local" VALUE="lighter\tests\syntaxhighlighter_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="theme_tests">
+<PARAM NAME="Local" VALUE="lighter\tests\theme_tests.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="NewTopic">
+<PARAM NAME="Local" VALUE="NewTopic.htm">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Untitled-2">
+<PARAM NAME="Local" VALUE="Untitled-2.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-9 运行后任务邮件通知及FTP上传">
+<PARAM NAME="Local" VALUE="1 AC入门\1-9 运行后任务邮件通知及FTP上传.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-9 运行后任务邮件通知及FTP上传">
+<PARAM NAME="Local" VALUE="1 AC入门\1-9 运行后任务邮件通知及FTP上传.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-12 AC架构部署经验实例">
+<PARAM NAME="Local" VALUE="1 AC入门\1-12 AC架构部署经验实例.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-53 Function getDataArrFromACChannel (key)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-53 Function getDataArrFromACChannel (key).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-53 Function getDataArrFromACChannel (key)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-53 Function getDataArrFromACChannel (key).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-51 Function writeIntoACChannel(key,value)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-51 Function writeIntoACChannel(key,value).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="2-2-52 Function getDataFromACChannel(key)">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-52 Function getDataFromACChannel(key).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-11 Function getInputValueArr(key)">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-11 Function getInputValueArr(key).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-8 Function getInputValueArr(key)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-8 Function getInputValueArr(key).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-11 Function getInputValueArr(key)">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-11 Function getInputValueArr(key).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-1 Function BeginTestCase">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-1 Function BeginTestCase.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-1 Method BeginTestCase">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-1 Method BeginTestCase.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-2 Function endTestCase">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-2 Function endTestCase.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-3 Function beginTest">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-3 Function beginTest.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-4 Function reportPass">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-4 Function reportPass.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-5 Function reportFail">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-5 Function reportFail.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-6 Function setOutputValue">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-6 Function setOutputValue.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-7 Function getInputValue">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-7 Function getInputValue.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-8 Function getEnvProperty">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-8 Function getEnvProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-9 Function getConfProperty">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-9 Function getConfProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-10 Function getDataProperty">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-10 Function getDataProperty.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-1 Function BeginTestCase(String casename)">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-1 Function BeginTestCase(String casename).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-2 Function endTestCase()">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-2 Function endTestCase().html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-3 Function beginTest(String testname)">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-3 Function beginTest(String testname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-4 Function reportPass(String msg)">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-4 Function reportPass(String msg).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-5 Function reportFail(String msg)">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-5 Function reportFail(String msg).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-6 Function setOutputValue(String paraname, String paravalue)">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-6 Function setOutputValue(String paraname, String paravalue).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-7 Function getInputValue(String paraname)">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-7 Function getInputValue(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-8 Function getEnvProperty(String paraname)">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-8 Function getEnvProperty(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-9 Function getConfProperty(String paraname)">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-9 Function getConfProperty(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-10 Function getDataProperty(String paraname)">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-10 Function getDataProperty(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-11 Function getInputValueArr(key)">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-11 Function getInputValueArr(key).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-1 Function pass(String msg)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-1 Function pass(String msg).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-2 Function fail">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-2 Function fail.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-3 Function getInputValue(String paraname)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-3 Function getInputValue(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-4 Function setOutputValue(String paraname,String paravalue)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-4 Function setOutputValue(String paraname,String paravalue).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-5 Function getEnvProperty(String paraname)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-5 Function getEnvProperty(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-6 Function getConfProperty(String paraname)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-6 Function getConfProperty(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-7 Function getDataProperty(String paraname)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-7 Function getDataProperty(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-8 Function getInputValueArr(key)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-8 Function getInputValueArr(key).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-13 安装说明">
+<PARAM NAME="Local" VALUE="1 AC入门\1-13 安装说明.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="9 在AC上运行测试vbs、perl脚本">
+<PARAM NAME="Local" VALUE="9 在AC上运行测试vbs、perl脚本\9 在AC上运行测试vbs、perl脚本.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="10 常见问题及解决">
+<PARAM NAME="Local" VALUE="10 常见问题及解决\10 常见问题及解决.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上开发运行QTP测试">
+<PARAM NAME="Local" VALUE="2 在AC上开发运行QTP测试\开发指南：如何在AC上开发运行QTP测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上开发运行JAVA测试">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\开发指南：如何在AC上开发运行JAVA测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上开发selenium测试">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\开发指南：如何在AC上开发selenium测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-12 Function assertEquals(String,String)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-12 Function assertEquals(String,String).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-9 Function verifyEquals(boolean)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-9 Function verifyEquals(boolean).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-10 Function verifyEquals(String,String)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-10 Function verifyEquals(String,String).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-11 Function assertEquals(boolean)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium脚本\4-11 Function assertEquals(boolean).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-13 安装注意事项">
+<PARAM NAME="Local" VALUE="1 AC入门\1-13 安装注意事项.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-1 框架介绍">
+<PARAM NAME="Local" VALUE="1 AC入门\1-1 框架介绍.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-2 相关框架文件">
+<PARAM NAME="Local" VALUE="1 AC入门\1-2 相关框架文件.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-3 框架包介绍">
+<PARAM NAME="Local" VALUE="1 AC入门\1-3 框架包介绍.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-4 定义 TestJobFile">
+<PARAM NAME="Local" VALUE="1 AC入门\1-4 定义 TestJobFile.xml.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-5 定义InstanceInfo">
+<PARAM NAME="Local" VALUE="1 AC入门\1-5 定义InstanceInfo.xml.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-6 定义Config">
+<PARAM NAME="Local" VALUE="1 AC入门\1-6 定义Config.xml.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-7 运行测试和查看报告">
+<PARAM NAME="Local" VALUE="1 AC入门\1-7 运行测试和查看报告.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-8 应用案例：银行系统应用案例">
+<PARAM NAME="Local" VALUE="1 AC入门\1-8 应用案例：银行系统应用案例.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-9 框架功能：运行后报告邮件通知及上传">
+<PARAM NAME="Local" VALUE="1 AC入门\1-9 框架功能：运行后报告邮件通知及上传.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-10 开发多数据循环测试">
+<PARAM NAME="Local" VALUE="1 AC入门\1-10 开发多数据循环测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-11 应用案例：组合job实现测试代码管理和运行">
+<PARAM NAME="Local" VALUE="1 AC入门\1-11 应用案例：组合job实现测试代码管理和运行.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="1-12 应用案例：部署框架实现团队协作开发">
+<PARAM NAME="Local" VALUE="1 AC入门\1-12 应用案例：部署框架实现团队协作开发.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-1 Function pass(String msg)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-1 Function pass(String msg).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-2 Function fail(String msg)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-2 Function fail(String msg).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-3 Function getInputValue(String paraname)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-3 Function getInputValue(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-4 Function setOutputValue(String paraname,String paravalue)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-4 Function setOutputValue(String paraname,String paravalue).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-5 Function getEnvProperty(String paraname)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-5 Function getEnvProperty(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-6 Function getConfProperty(String paraname)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-6 Function getConfProperty(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-7 Function getDataProperty(String paraname)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-7 Function getDataProperty(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-8 Function getInputValueArr(key)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-8 Function getInputValueArr(key).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-9 Function verifyEquals(boolean)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-9 Function verifyEquals(boolean).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-10 Function verifyEquals(String,String)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-10 Function verifyEquals(String,String).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-11 Function assertEquals(boolean)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-11 Function assertEquals(boolean).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-12 Function assertEquals(String,String)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-12 Function assertEquals(String,String).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上开发selenium测试">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\开发指南：如何在AC上开发selenium测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-1 Function pass(String msg)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-1 Function pass(String msg).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-2 Function fail(String msg)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-2 Function fail(String msg).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-3 Function getInputValue(String paraname)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-3 Function getInputValue(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-4 Function setOutputValue(String paraname,String paravalue)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-4 Function setOutputValue(String paraname,String paravalue).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-5 Function getEnvProperty(String paraname)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-5 Function getEnvProperty(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-6 Function getConfProperty(String paraname)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-6 Function getConfProperty(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-7 Function getDataProperty(String paraname)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-7 Function getDataProperty(String paraname).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-8 Function getInputValueArr(key)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-8 Function getInputValueArr(key).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-9 Function verifyEquals(boolean)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-9 Function verifyEquals(boolean).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-10 Function verifyEquals(String,String)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-10 Function verifyEquals(String,String).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-11 Function assertEquals(boolean)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-11 Function assertEquals(boolean).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="4-12 Function assertEquals(String,String)">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\4-12 Function assertEquals(String,String).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上开发selenium测试">
+<PARAM NAME="Local" VALUE="4 在AC上开发selenium测试\开发指南：如何在AC上开发selenium测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上开发运行Junit测试">
+<PARAM NAME="Local" VALUE="5 在AC上开发运行Junit测试\开发指南：如何在AC上开发运行Junit测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上开发运行ANT测试">
+<PARAM NAME="Local" VALUE="6 在AC上开发运行ANT测试\开发指南：如何在AC上开发运行ANT测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上开发运行DB测试">
+<PARAM NAME="Local" VALUE="7 在AC上开发运行DB测试\开发指南：如何在AC上开发运行DB测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上开发运行DB测试">
+<PARAM NAME="Local" VALUE="7 在AC上开发运行DB测试\开发指南：如何在AC上开发运行DB测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上开发运行webservice测试">
+<PARAM NAME="Local" VALUE="9 在AC上运行测试vbs、perl脚本\开发指南：如何在AC上开发运行webservice测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上开发运行webservice测试">
+<PARAM NAME="Local" VALUE="8 在AC上开发运行webService测试\开发指南：如何在AC上开发运行webservice测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上开发运行webservice测试">
+<PARAM NAME="Local" VALUE="9 在AC上运行测试vbs、perl脚本\开发指南：如何在AC上开发运行webservice测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上开发运行webservice测试">
+<PARAM NAME="Local" VALUE="8 在AC上开发运行webService测试\开发指南：如何在AC上开发运行webservice测试.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上运行测试vbs、perl脚本">
+<PARAM NAME="Local" VALUE="9 在AC上运行测试vbs、perl脚本\开发指南：如何在AC上运行测试vbs、perl脚本.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-12 Function writeIntoACChannel(String strKey,String value)">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-12 Function writeIntoACChannel(String strKey,String value).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="3-13 Function outputFrameLog(String log)">
+<PARAM NAME="Local" VALUE="3 在AC上开发运行JAVA测试\3-13 Function outputFrameLog(String log).html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="开发指南：如何在AC上运行测试vbs、perl脚本">
+<PARAM NAME="Local" VALUE="9 在AC上运行测试vbs、perl脚本\开发指南：如何在AC上运行测试vbs、perl脚本.html">
+</OBJECT>
+</UL></BODY></HTML>

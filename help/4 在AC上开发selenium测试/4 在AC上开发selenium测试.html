@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tem_1.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/des.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/table.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/des.css" type="text/css" media="all" />
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../lighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushXml.js"></script>
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+  </head>
+  <body>
+    <!-- InstanceBeginEditable name="links" -->      <table cellspacing="0" summary="">
+        <tr>
+        <td><a href="../index.html"><img alt="主页" border="0" src="../images/home.png" /></a></td>
+          <td><a href="../3 在AC上开发运行JAVA测试/3-13 Function outputFrameLog(String log).html"><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href="开发指南：如何在AC上开发selenium测试.html"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+  <!-- InstanceEndEditable -->
+    <br />
+    <!-- InstanceBeginEditable name="title_1" -->
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">4 在AC上开发selenium测试</div>
+    <!-- InstanceEndEditable -->
+  <hr align="left" />
+    <blockquote>
+      <div class="CT_ChapterTitle" style="text-align:center">
+        <!-- InstanceBeginEditable name="title_1_present" -->selenium Case简介<!-- InstanceEndEditable --></div>
+      <div class="des"><!-- InstanceBeginEditable name="content" -->
+<h3>1. TestJobFile.xml中Job定义</h3    
+>
+<pre class="brush:xml;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">
+&lt;Selenium name="selenium_demo" description="Test calc"  depends="" >
+	&lt;TestData type="xml"  location="selenium\config.xml"/>
+		&lt;JobInput name="$number1"/>
+		&lt;ClassPath location="selenium\selenium-java-client-driver_self_extended_oracle.jar"/>
+		&lt;ClassPath location="selenium\my.jar"/>
+&lt;ClassPath location=" selenium\selJava.jar"/>
+		&lt;SelTestCase path="selJava">
+			&lt;SelTest name="testSelJava "/>
+		&lt;/SelTestCase>
+&lt;/Selenum>
+</pre>
+<h3>2.<a href="开发指南：如何在AC上开发selenium测试.html" title="Develop Guide"> 开发指南：如何在AC上开发selenium测试</a></h3>
+  <a name="jobAPI4" id="jobAPI4"></a>
+  <h3>3. Job API</h3> 
+  <h4>Utility to Exchange Info with Framework</h4>
+  <div id="tableFrame">
+    <div id="tableFrameTitle">
+        <ul>
+         <li>Function</li>
+       <li>Description</li>
+        </ul>
+    </div>
+    <div id="tableCase">
+        <ul>
+          <li><a href="4-1 Function pass(String msg).html" title="Function pass(String msg)"> pass(String msg)</a><br/>&nbsp;<br/>&nbsp;<br/>&nbsp;</li>
+          <li>Report pass message to framework, at same time:<br />
+1.	Selenium test status will be updated;<br />
+2.	Msg will realtimely appear in the console;<br />
+3.	Snapshot will be caught, finally presented in report.</li> 
+        </ul>
+         <ul>
+            <li><a href="4-2 Function fail(String msg).html" title="Function fail(String msg)">fail(String msg)</a><br/>&nbsp;<br/>&nbsp;<br/>&nbsp;</li>
+            <li>Report fail message to framework, at same time:<br />
+1.  Selenium test status will be updated;<br />
+2.  Msg will realtimely appear in the console;<br />
+3.  Snapshot will be caught, finally presented in report.</li>
+         </ul>
+          <ul>
+            <li><a href="4-7 Function getDataProperty(String paraname).html" title="Function getDataProperty(String paraname)">getDataProperty(String paraname)</a><br/>&nbsp;</li>
+            <li>Get data parameter from job data appenders, which was loaded by appender &lt;TestData></li>
+         </ul>
+          <ul>
+            <li><a href="4-6 Function getConfProperty(String paraname).html" title="Function getConfProperty(String paraname)">getConfProperty(String paraname)</a><br/>&nbsp;</li>
+            <li>Get config value from the config channel of Automation Center. </li>
+         </ul>
+         <ul>
+            <li><a href="4-5 Function getEnvProperty(String paraname).html" title="Function getEnvProperty(String paraname)">getEnvProperty(String paraname)</a> </li>
+            <li>Get env value from the env channel of Automation Center. </li>
+         </ul>
+         <ul>
+            <li><a href="4-3 Function getInputValue(String paraname).html" title="Function getInputValue(String paraname)">getInputValue(String paraname)</a> </li>
+            <li>Get input value from the data channel of Automation Center.</li>
+         </ul>
+         <ul>
+            <li><a href="4-8 Function getInputValueArr(key).html" title="Function getInputValueArr(key)">getInputValueArr(strkey)</a><br/>&nbsp;</li>
+            <li>get parameter value array by key from AC global data channel</li>
+         </ul>
+         <ul>
+            <li><a href="4-4 Function setOutputValue(String paraname,String paravalue).html" title="Function setOutputValue(String paraname, String paravalue)">setOutputValue(String paraname, String paravalue)</a></li>
+            <li>Notify Automation Center of a testJob output.</li>
+         </ul>  
+                  <ul>
+            <li><a href="4-4 Function setOutputValue(String paraname,String paravalue).html" title="Function setOutputValue(String paraname, String paravalue)">writeIntoACChannel(strKey,value)</a></li>
+            <li>Same as setOutputValue(strKey,value)</li>
+         </ul>           
+    </div>
+      </div>
+      <h4>Utility To Check Status</h4>
+        <div id="tableFrame">
+    <div id="tableFrameTitle">
+        <ul>
+         <li>Parameters</li>
+       <li>Description</li>
+        </ul>
+    </div>
+    <div id="tableCase">
+        <ul>
+          <li><a href="4-9 Function verifyEquals(boolean).html">verifyEquals(boolean)</a></li>
+          <li>Verify if a boolean is true </li> 
+        </ul> 
+        <ul>
+          <li><a href="4-10 Function verifyEquals(String,String).html">verifyEquals(String,String)</a></li>
+          <li>Verify if String A is equals with String B, return true or false</li> 
+        </ul>        
+        <ul>
+          <li><a href="4-11 Function assertEquals(boolean).html">assertEquals(boolean)</a></li>
+          <li>Assert if a boolean is true</li> 
+        </ul>        
+        <ul>
+          <li><a href="4-12 Function assertEquals(String,String).html">assertEquals(String,String)</a></li>
+          <li>Assert  if String A is equals with String B, return true or false </li> 
+        </ul               
+      ></div>
+      </div> 
+      <!-- InstanceEndEditable --></div>
+    </blockquote>
+  </body>
+<!-- InstanceEnd --></html>

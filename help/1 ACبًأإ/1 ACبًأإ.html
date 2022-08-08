@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tem_1.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/des.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/table.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/des.css" type="text/css" media="all" />
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../lighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushXml.js"></script>
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+  </head>
+  <body>
+    <!-- InstanceBeginEditable name="links" -->      <table cellspacing="0" summary="">
+        <tr>
+        <td><a href="../index.html"><img alt="主页" border="0" src="../images/home.png" /></a></td>
+          <td><a href="#"><img alt="上一页" border="0" src="../images/prevx.jpg" /></a></td>
+          <td><a href="1-1 框架介绍.html"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+  <!-- InstanceEndEditable -->
+    <br />
+    <!-- InstanceBeginEditable name="title_1" -->
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">1 AC入门</div>
+    <!-- InstanceEndEditable -->
+  <hr align="left" />
+    <blockquote>
+      <div class="CT_ChapterTitle" style="text-align:center">
+        <!-- InstanceBeginEditable name="title_1_present" --> AC 总揽介绍<!-- InstanceEndEditable --></div>
+      <div class="des"><!-- InstanceBeginEditable name="content" --><table width="336" border="0">
+  <tr bgcolor="#999999">
+    <th width="76" scope="col">日期</th>
+    <th width="79" scope="col">作者</th>
+    <th width="91" scope="col">版本</th>
+   <th width="62" scope="col">版次</th>
+  </tr>
+  <tr bgcolor="#CCCCFF">
+    <td>2010-08-02</td>
+    <td>Shining.liu</td>
+    <td>0.1</td>
+    <td>Initial draft</td>
+  </tr>
+</table>
+      <h3>1. AC架构示意</h3>
+        <p>AC以Test Job Object Model（测试任务模型）为核心，以Test Job File（测试任务文件）为输入，根据Job type启动不同类型的测试引擎，执行测试任务，最后输出一份基于html的自动化测试报告。如图：</p> 
+      <img src="../images/content/1-1.jpg" width="624" height="319" alt="Automation Center " />
+<p>AC目前支持五种主流测试引擎，Ant，Java，Selnium，QTP和Junit，这意味着，AC的用户可以将这些不同类型的测试脚本统一集成到AC中进行管理，调度和执行，最后形成一份自动化测试报告。</p>
+<p>同时，JobEngine是基于Java的interface接口技术开发，因此，AC的用户也可以根据自己的需求对JobEngine进行扩展，开发不同Engine，比如RobotEngine，silkEngine等等。</p>
+<h3>2. Test Job Object Model（测试任务模型）</h3>
+<p>TestJobObject Model是AC的运行核心，它是一个树形结构，每个TestJob下包含多个属性和对象，结构图如下：</p>
+<img src="../images/content/1-2.jpg" width="609" height="319" />
+<h4>1)	TestJob的模型构建</h4>
+<p>一个TestJob有如下属性信息：</p>
+<ul>
+  <li>name：TestJob的名称。</li>
+  <li>description：TestJob的描述信息。</li>
+  <li>depends：TestJob的依赖信息。比如在TestJob A的depends定义为Test Job B，则AC会首先运行B，并根据B的成败，判断是否执行A。</li>
+</ul>
+<p>一个TestJob还可以包含以下一个或多个附属对象：</p>
+<ul>
+  <li>&lt;JobInput>：测试任务输入信息，在本Test Job开始执行之时，AC会检查其所有JobInput是否已经准备好。</li>
+  <li>&lt;JobOutput>：测试任务输出信息，在本Test Job结束执行之后，AC会检查其所有的JobOutput 是否都已经按照定义输出。</li>
+  <li>&lt;PropFile>：环境文件，遵循Java Properties定义规范，和测试环境相关的信息，比如被测服务器地址，测试帐号及口令等等。</li>
+  <li>&lt;ConfFile>：AC配置文件，遵循java Proeprties定义规范，和任务设置相关的信息，比如测试超时时间，重复运行次数等等。</li>
+  <li>&lt;TestData>：测试数据，支持xsl和xml两种数据格式。AC会在Test Job执行的时候加载测试数据，供Test Case使用。</li>
+  <li>&lt;Lib>：QTP TestJob专用，AC在启动QTPjob时，会加载相应的lib文件。</li>
+  <li>&lt;ClassPath>： Java TestJob专用，AC在运行java job时，会调用classloader将所引用到的jar包装载至jvm中。</li>
+</ul>
+<p>另外，TestJob同时还是一个递归的自定义结构，这意味着一个Test Job下可以递归包含若干个子Test Job，这种TestJob又称作抽象Job，AC在运行抽象Job时，会首先递归运行其下的所有子TestJob，然后分析这些TestJob的结果状态，最终确定抽象Job的运行结果状态。</p>
+<h4>2.	TestJob文件示例</h4>
+<p>使用xml文件来定义TestJob，以下是一个TestJobFile.xml示例：</p>
+<pre class="brush:xml;gutter:false;toolbar:false; collapse:true;stripBrs:false">
+&lt;TestJob name="机票预定系统测试" description="测试机票系统安装，登录，预定等功能" depends="">
+&lt;PropFile name="$ENV" location="serverInfo.xml"/>
+&lt;ConfFile name="$CONFIG" location="config.xml"/>
+	&lt;Java name="getTestCaseFromCVS" description="使用java程序从cvs中获得相应的测试代码"  depends="" driver_type="JAVA">
+		&lt;ClassPath location="javacase/jar/cvsLoader.jar"/>
+		&lt;JobOutput name="$TESTVERSION"/>
+		&lt;Run path="cvsLoader.getFiles ">
+		&lt;/Run>
+	&lt;/Java>
+	&lt;Script name="VBS_Install_Client" description="使用VBScript脚本完成机票系统客户端的安装"  depends="getTestCaseFromCVS" >
+		&lt;Lib location="common\lib\lib_install.vbs"/>
+		&lt;Run path="testcase\vbs\install_client.vbs">&lt;/Run>
+	&lt;/Script>
+&lt;QTP name="QTP_bookFlight" description="调用QTP脚本完成机票的预定"  depends=" VBS_Install_Client" >
+	&lt;JobOutput name="$FlightNo"/>
+&lt;JobOutput name="$CustomerName"/>
+		&lt;Lib location="common\lib\lib_utilityvbs"/>
+		&lt;Run path="testcase\qtp\qtp_bookFlight">&lt;/Run>
+	&lt;/QTP>
+&lt;Selenium name="Selenium_queryFlighOnWeb" description="调用Selenium脚本通过web查询订单的信息是否正确"  depends="QTP_bookFlight" >
+&lt;ClassPath location="seleniumcase/web/selcase.jar"/>
+&lt;JobInput name="$FlightNo"/>
+&lt;JobInput name="$CustomerName"/>
+		&lt;Run path="selcase.checkWeb">&lt;/Run>
+	&lt;/Selenium>
+&lt;/TestJob>
+</pre>
+<p>以上TestJob文件描述了一个机票系统的完整的自动化测试流程，总计包含4个不同类型的TestJob，分别为getTestCaseFromCVS，VBS_Install_Client，QTP_bookFlight和Selenium_queryFlighOnWeb。</p>
+<p> TestJob的depends定义揭示了AC的运行过程：</p>
+<ul>
+<li>AC会首先运行名为getTestCaseFromCVS的java测试案例，getTestCaseFromCVS从代码管理系统cvs中下载测试案例代码到本地。为后续的案例运行准备好执行环境。</li>
+<li>VBS_Install_Client的Vbscript脚本负责在本机windows上安装订机票客户端。</li>
+<li>QTP脚本QTP_bookFlight下了一张机票订单，并将订单号和乘客名输出。</li>
+<li>订单号和乘客名成为Selenium_queryFlighOnWeb的输入参数，Selenium脚本则完成web页面订单的查询和验证。</li>
+</ul>
+
+      <!-- InstanceEndEditable --></div>
+    </blockquote>
+  </body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tem_xml.dwt" codeOutsideHTMLIsLocked="false" --><head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>AC</title>
+<script type="text/javascript" src="../lighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushJava.js"></script>
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+ <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+ <link href="../css/des.css" rel="stylesheet" type="text/css" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+  </head>
+<body>
+    <div style="text-align: left;"><!-- InstanceBeginEditable name="links" -->
+            <table cellspacing="0" summary="">
+        <tr>
+        <td><a href="../index.html"><img alt="主页" border="0" src="../images/home.png" /></a></td>
+          <td><a href="1-11 应用案例：组合job实现测试代码管理和运行.html"><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href="1-13 安装注意事项.html"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+    <!-- InstanceEndEditable --></div>
+<br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+<!-- InstanceBeginEditable name="title_1" --><a class="WebWorks_Breadcrumb_Link" href="1 AC入门.html">1 AC入门</a><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="colon" -->：<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="title_2" -->1-12   应用案例：部署框架实现团队协作开发  <!-- InstanceEndEditable --></div>
+    <hr align="left" />
+<blockquote><!-- InstanceBeginEditable name="title_2_present" -->
+  <div class="H1_Head1"> 应用案例：部署框架实现团队协作开发 </div>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="content1" -->
+      <div class="des">
+        <p>在一个测试团队里，如何使用使用AC完成自动化测试的协作开发，调试，这是一个难题。</p>
+        <p>AC的应用思想是一处应用，多点调试，测试案例和报告集中管理，最大限度地减少维护成本。下面给出一个部署方案</p>
+      </div>
+       <div class="des">
+         <H4>1.  建立AC工作共享服务器</H4> 
+         <P>可以将AC的所有工作文件部署在一台硬盘空间较大（建议10G以上）的的服务器上。比如在某服务器10.0.0.1上C盘下建立AutomationCenterBase目录，存放AC工件，如下。</P>
+         <img src="../images/content/1-12-1.png" width="582" height="487" alt="图1-1 Automation Center目录结构图" />
+   <p align="center">图1-1 Automation Center目录结构图</p>
+   <p>然后将AutomationCenterBase在局域网共享，<strong>共享权限设为完全控制。</strong></p> 
+   <img src="../images/content/1-12-2.png" width="365" height="473" alt="共享权限设为完全控制" />
+   <p>在分配为运行自动化测试的主机上，寻找10.0.0.1上的共享目录，并将其映射为本地的网络硬盘。指定一个盘符，比如Q盘。</p>
+   <img src="../images/content/1-12-3.png" width="793" height="455" alt="映射本地磁盘" />
+     <p>完成映射后，本机就可以像访问本地硬盘一样，读共享目录了。</p>
+     <img src="../images/content/1-12-4.png" width="818" height="443" alt="完成映射" /> </div>
+     
+     <div class="des">
+         <H4>2.  协作开发</H4> 
+         <P>测试团队的成员可在自己pc上映射Q盘，在Q盘下testscripts目录下建立自己的脚本目录，然后运行testant.bat进行本地调试开发。每次运行的结果，自动存放在results目录下。</P>
+    </div>
+          <div class="des">
+<h4>3.	正式运行</h4>
+<p>在专属自动化测试的工作机上映射Q盘，并启动TestAnt_LisenerMode.bat，AC的agent监听程序将会启动，接收job命令。
+</p>
+<p>所有正式的测试任务统一通过agent发送，AC内部有job队列会按照先到先运行的规则依次运行自动化测试job。</p>
+<p>Agent命令格式和相关参数，请参看论坛，或发送邮件获得。</p>
+</div>
+<div class="des">
+ <h4>4.	Log调试</h4>       
+<p>在运行AC的主机上，将会生成以本机hostanme为前缀的framework.log，方便成员查看自己的log。</p>
+    </div>
+      <!-- InstanceEndEditable -->
+            <!-- InstanceBeginEditable name="content2" -->
+           
+      <!-- InstanceEndEditable -->
+          <!-- InstanceBeginEditable name="code" -->
+    
+	<!-- InstanceEndEditable -->
+     <!-- InstanceBeginEditable name="content3" -->  
+
+<!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="content4" -->
+      <!-- InstanceEndEditable -->
+     <!-- InstanceBeginEditable name="code2" -->
+ 
+<!-- InstanceEndEditable --> 
+</blockquote>
+</body>
+<!-- InstanceEnd --></html>

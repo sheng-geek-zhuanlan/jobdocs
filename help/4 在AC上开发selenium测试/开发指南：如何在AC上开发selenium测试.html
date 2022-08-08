@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tem_1.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/des.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/table.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/des.css" type="text/css" media="all" />
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../lighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushXml.js"></script>
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+  </head>
+  <body>
+    <!-- InstanceBeginEditable name="links" -->      <table cellspacing="0" summary="">
+        <tr>
+        <td><a href="../index.html"><img alt="主页" border="0" src="../images/home.png" /></a></td>
+          <td><a href="4 在AC上开发selenium测试.html"><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href="4-1 Function pass(String msg).html"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+  <!-- InstanceEndEditable -->
+    <br />
+    <!-- InstanceBeginEditable name="title_1" -->
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="4 在AC上开发selenium测试.html">4 在AC上开发selenium测试</a>：开发指南：如何在AC上开发selenium测试</div>
+    <!-- InstanceEndEditable -->
+  <hr align="left" />
+    <blockquote>
+      <div class="CT_ChapterTitle" style="text-align:center">
+        <!-- InstanceBeginEditable name="title_1_present" -->开发selenium Case<!-- InstanceEndEditable --></div>
+      <div class="des"><!-- InstanceBeginEditable name="content" -->
+      <h3>1.  基于录制回放的selenium case</h3>
+      <p>录制一个简单的web计算器功能，export到junit模式，保存为selJava.java文件，如下：</p>     
+      <pre name="code" class="brush:java;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">
+package com.example.tests;
+import com.thoughtworks.selenium.*;
+import java.util.regex.Pattern;
+public class selJava extends SeleneseTestCase {
+	public void setUp() throws Exception {
+		setUp("http://change-this-to-the-site-you-are-testing/", "*chrome");
+	}
+	public void testSelJava() throws Exception {
+		selenium.open("/calc.htm");
+		selenium.click("//input[@name='alex' and @value='1']");
+		selenium.click("//input[@name='alex' and @value='+']");
+		selenium.click("//input[@name='alex' and @value='2']");
+		selenium.click("//input[@name='alex' and @value='=']");
+		verifyEquals("3", selenium.getValue("display"));
+	}
+}
+</pre>
+<p>以上Selenium case继承SeleneseTestCase，SeleneseTestCase的父类是Junit TestCase，因此，在默认模式下，Selenium Case实际上是以Junit Runner方式运行的。
+Junit本身是java单元测试框架，并不完全满足我们selenium的测试需求，比如对case之间的依赖关系及数据交互，web测试抓图等等，junit并不能胜任。</p>
+<h4>1) Selenium 代码从Junit模式转化到AC模式</h4>
+<p>可遵循以下步骤，将junit模式的selenium 代码转化成在AC模式：</p>
+<ul>
+<li>第一步：在java环境中的classPath添加ac_framework.jar；</li>
+<li>第二步：在case文件头添加 import framework.JobDOM.ACSeleniumJob;
+将selJava 的父类改为ACSeleniumJob，
+public class selJava extends ACSelniumJob
+</li>
+<li>第三步：由于录制生成的setup函数调用了父类的setup，封装了selenium初始化的操作。在这里，我们直接将selenium的初始化操作放到子类的setup函数中。</li>
+<li>第四步：增加函数public void tearDown()，做收尾工作。</li>
+</ul>
+<p>到这里，新的selenium case已经完成了（红色为修改处），如下：</p>
+<pre name="code" class="brush:java;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">package com.example.tests;
+import com.thoughtworks.selenium.*;
+import java.util.regex.Pattern;
+public class selJava extends ACSeleniumJob {
+	public void setUp() throws Exception {
+		  setUp("http://change-this-to-the-site-you-are-testing/", "*chrome");
+	}
+	public void testSelJava() throws Exception {
+		selenium.open("/calc.htm");
+		selenium.click("//input[@name='alex' and @value='1']");
+		selenium.click("//input[@name='alex' and @value='+']");
+		selenium.click("//input[@name='alex' and @value='2']");
+		selenium.click("//input[@name='alex' and @value='=']");
+		verifyEquals("3", selenium.getValue("display"));
+	}
+}
+</pre>
+<h4>2)将Selenium case添加到TestJobFile中，运行AC，获得测试结果 </h4>
+<p>TestJobFile中添加Selenium Job，按如下格式定义：</p>
+<pre name="code" class="brush:xml;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">
+&lt;Selenium name="selenium_demo" description="Test calc"  depends="" >
+	&lt;TestData type="xml"  location="selenium\config.xml"/>
+		&lt;JobInput name="$number1"/>
+		&lt;ClassPath location="selenium\selenium-java-client-driver_self_extended_oracle.jar"/>
+		&lt;ClassPath location="selenium\my.jar"/>
+&lt;ClassPath location=" selenium\selJava.jar"/>
+		&lt;SelTestCase path="selJava">
+			&lt;SelTest name="testSelJava "/>
+		&lt;/SelTestCase>
+&lt;/Selenum>
+</pre>
+<p>运行AC framework，即可执行selenium Job，并获得测试报告。</p>
+<h3>2. 将启动selenium server集成到TestJob中</h3>
+<p>我们最常用的是Selenium RC模式，即先启动一个selenium server，然后才能运行selenium脚本。</p>
+<p>ava启动selenium server的命令行语句如下：<br/>
+java –jar selenium-server.jar<br/> –port 4444 – proxyInjectionMode –log selServer.txt<br/>
+如何把启动 selenium server的java命令行也集成到AC中来呢？<br/>
+这里要用到AC的Ant Engine。
+创建基于Ant Engine的TestJob，TestJob内容遵循Ant语法，如下:</p>
+<pre name="code" class="brush:xml;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">
+&lt;TestJob name="Ant_StartSelenium" description="selenium initialization"  depends="" driver_type="ANT" daemon="true">
+		&lt;java fork="true" spawn="true" jar="D:\selenium-server.jar">
+			&lt;arg line="-port 4444 "/>
+			&lt;arg line="-proxyInjectionMode"/>
+			&lt;arg line="-log sel.txt"/>
+		&lt;/java>
+	&lt;/TestJob>
+</pre>
+<p>启动Selenium server的TestJob可与Selenium Test Job做一个dependence的定义，保证每次运行selenium测试的时候，selenium server是处于启动状态的。</p>
+<pre name="code" class="brush:xml;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">
+&lt;TestJob name="Ant_StartSelenium" description="selenium initialization"  depends="" driver_type="ANT" daemon="true">
+………………………
+&lt;/TestJob>
+&lt;TestJob name="selenium_demo" description="Test calc"  depends=" Ant_StartSelenium " driver_type="SELENIUM" >
+…………………….
+&lt;/TestJob>
+</pre>
+<h3>3.	框架提供的selenium API</h3>
+<ul><li>pass(String msg): 向AC汇报当前运行状态，为成功</li>
+<li>fail(String msg)：向AC汇报当前运行状态，为失败</li>
+<li>warning(String msg)：向AC汇报当前运行状态，为警告</li>
+<li>getDataProperty(String key)：获得测试数据</li>
+<li>getEnvProperty(String key)：获得环境变量</li>
+<li>getConfProperty(String key)：获得配置数据</li>
+<li>getInputValue(String key)：从全局数据通道中获得输入数据</li>
+<li>getInputValueArr(String key)：从全局数据通道中获得输入数据，返回一个数组</li>
+<li>setOutputValue(String key,String value)： 向全局数据通道输出数据</li>
+</ul>
+      <!-- InstanceEndEditable --></div>
+    </blockquote>
+  </body>
+<!-- InstanceEnd --></html>

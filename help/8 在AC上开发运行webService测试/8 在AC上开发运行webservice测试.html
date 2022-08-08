@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tem_java.dwt" codeOutsideHTMLIsLocked="false" --><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>AC</title>
+<script type="text/javascript" src="../lighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushXml.js"></script>
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+ <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+    <link href="../css/des.css" rel="stylesheet" type="text/css" />
+        <link href="../css/table.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+SyntaxHighlighter.defaults['smart-tabs'] = false;
+	SyntaxHighlighter.all();
+    </script>
+  </head>
+<body>
+    <div style="text-align: left;"><!-- InstanceBeginEditable name="links" -->      <table cellspacing="0" summary="">
+        <tr>
+        <td><a href="../index.html"><img alt="主页" border="0" src="../images/home.png" /></a></td>
+          <td><a href="../7 在AC上开发运行DB测试/开发指南：如何在AC上开发运行DB测试.html"><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href="开发指南：如何在AC上开发运行webservice测试.html"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+    <!-- InstanceEndEditable --></div>
+<br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+<!-- InstanceBeginEditable name="title_1" -->8 在AC上开发运行webservice测试<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Colon" --><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="title_2" --><!-- InstanceEndEditable --></div>
+    <hr align="left" />
+<blockquote><!-- InstanceBeginEditable name="title_2_present" -->
+  <div class="H1_Head1"> webservice Job 简介</div>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="content1" -->
+  <div class="des">
+  <h3>1.TestJobFile.xml中Job定义 </h3>
+<pre class="brush:java;gutter:false;toolbar:false; collapse:true;stripBrs:false">
+&lt;WebService name="WebServiceTest" description="Test Send email by SOAP API"  depends="" wsmode="simple" iteration="iteration1">
+		&lt;TestData type="iteration"  location="TestData\TestData_revised.xls"/>
+		&lt;JobInput name="$MAIL_SUBJECT"/>
+		&lt;JobOutput name="$NAME" sql="select name from testing"/>
+		&lt;Session>
+				&lt;WSHOST value="ws.cesoo.info"/>
+				&lt;WSPORT value="7777"/>
+				&lt;WSUSER value="shining.liu"/>
+        &lt;WSPWD value="Welcome1"/>
+		&lt;/Session>
+		&lt;SendGet name="getUser">
+				&lt;URL path="http://ws.cesoo.info:7777/comb/v1/d/my/user"/>
+				&lt;HEADERS>
+					&lt;HEADER name="Content-Type">application/xml&lt;/HEADER>
+					&lt;HEADER name="Accept">application/xml&lt;/HEADER>
+				&lt;/HEADERS>
+		&lt;/SendGet>
+		&lt;Capture_response_save_param>
+				&lt;Paraname>$obid&lt;/Paraname>
+				&lt;LB>&lt;obh:id&gt;&lt;/LB>
+				&lt;RB>&lt;/obh:id&gt;&lt;/RB>
+				&lt;OCCURENCE>1&lt;/OCCURENCE>
+		&lt;/Capture_response_save_param>
+		&lt;SendGet name="login">
+				&lt;URL path="http://ws.cesoo.info:7777/comb/v1/d/Session/auth/login"/>
+				&lt;HEADERS>
+					&lt;HEADER name="Content-Type">application/xml&lt;/HEADER>
+					&lt;HEADER name="Accept">application/xml&lt;/HEADER>
+				&lt;/HEADERS>
+				&lt;PARAS>
+					&lt;PARA name="anticsrf">XKG6jA67vNw%3D&lt;/PARA>
+				&lt;/PARAS>
+		&lt;/SendGet>
+		&lt;Capture_response_save_param>
+				&lt;Paraname>$anticsrf&lt;/Paraname>
+				&lt;LB>&lt;obr:token&gt;&lt;/LB>
+				&lt;RB>&lt;/obr:token&gt;&lt;/RB>
+				&lt;OCCURENCE>1&lt;/OCCURENCE>
+		&lt;/Capture_response_save_param>
+		&lt;SendGet name="postBody">
+				&lt;URL path="http://ws.cesoo.info:7777/comb/v1/d/Session/upload"/>
+				&lt;HEADERS>
+					&lt;HEADER name="Content-Type">text/plain&lt;/HEADER>
+					&lt;HEADER name="Accept">application/xml&lt;/HEADER>
+				&lt;/HEADERS>
+				&lt;PARAS>
+					&lt;PARA name="anticsrf">$anticsrf&lt;/PARA>
+					&lt;PARA name="uploadscope">15478108543683&lt;/PARA>
+					&lt;PARA name="content_id">15478108538375&lt;/PARA>
+				&lt;/PARAS>
+				&lt;BODY>email-body-for-webservice&lt;/BODY>
+		&lt;/SendGet>
+		&lt;SendPost name="sendEmail">
+				&lt;URL path="http://ws.cesoo.info:7777/comb/v1/d/emsg/send"/>
+				&lt;HEADERS>
+					&lt;HEADER name="Content-Type">application/xml&lt;/HEADER>
+					&lt;HEADER name="Accept">application/xml&lt;/HEADER>
+				&lt;/HEADERS>
+				&lt;PARAS>
+					&lt;PARA name="anticsrf">$anticsrf&lt;/PARA>
+					&lt;PARA name="uploadscope">15478108543683&lt;/PARA>
+					&lt;PARA name="content_id">15478108538375&lt;/PARA>
+					&lt;PARA name="debug">true&lt;/PARA>
+				&lt;/PARAS>
+				&lt;BODY>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;br/>&lt;emailMessageContentUpdater&lt;bodyUpdater xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:type=&quot;streamedSimpleContentUpdater&quot;&gt;&lt;br/>    &lt;/toReceivers&gt;&lt;br/>&lt;/emailMessageContentUpdater&gt;&lt;/BODY>
+		&lt;/SendPost>
+	&lt;/WebService>
+ </pre>
+ <ul>  
+<li><b>&lt;Session></b>：定义web service认证信息，包括主机，端口，用户名和密码。</li>
+<li> <b>&lt;SendGet></b>：发送http Get请求。</li>
+<li> <b>&lt;SendPost></b>：发送http post请求。</li>
+<li><b>&lt;Capture_response_save_param></b>：在上次请求结果中以左边界（LB）和右边界（RB）为条件寻找数据，并保存成名为paraname的参数。</li>
+</ul>
+<h3>2.<a href="开发指南：如何在AC上开发运行webservice测试.html" title="Develop Guide"> 开发指南：如何在AC上开发运行webservice测试</a></h3>
+ <h3>3. Job API</h3> 
+  <div id="tableFrame">
+    <div id="tableFrameTitle">
+        <ul>
+         <li>Function</li>
+       <li>Description</li>
+        </ul>
+    </div>
+   <div id="tableCase">
+        <ul>
+          <li>NO</li>
+          <li>NO</li> </ul>
+  </div>
+      <!-- InstanceEndEditable -->
+            <!-- InstanceBeginEditable name="content2" -->
+      <!-- InstanceEndEditable -->
+          <!-- InstanceBeginEditable name="code" -->
+ 
+ 
+ <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="content3" -->  
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="content4" -->
+    
+      <!-- InstanceEndEditable -->
+          <!-- InstanceBeginEditable name="code2" -->
+ 
+  <!-- InstanceEndEditable -->
+</blockquote>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,49 @@
+#tableFrame{
+	width:600px; /*需要修改*/
+	height:auto;
+	border-top:#000 1px solid;
+	border-left:#000 1px solid;
+	padding:0;
+	margin:0 auto;
+	font-size:12px;
+}
+#tableFrame:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+#tableFrame ul{
+padding:0;
+margin:0;
+list-style:none;
+float:left;
+}
+#tableFrame li{
+overflow:hidden;
+float:left;
+display: block;
+width:295px; /*需要修改*/
+height:auto;
+padding:2px;
+margin:0;
+border-right:#000 1px solid;
+border-bottom:#000 1px solid;
+line-height:20px;
+color:000;
+}
+/* 表格标题*/
+#tableFrameTitle ul{float:left;}
+#tableFrameTitle ul li{
+background:gray;
+text-align:left;
+color:#003;
+font-weight:bold;
+}
+
+/* 表格内容*/
+#tableCase ul{}
+#tableCase ul li{background:#c9dff7;
+
+}

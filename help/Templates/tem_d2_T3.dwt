@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>AC</title>
+<script type="text/javascript" src="../lighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushJava.js"></script>
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<link href="../css/table.css" rel="stylesheet" type="text/css" />
+ <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+ <link href="../css/des.css" rel="stylesheet" type="text/css" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+    <script type="text/javascript">
+SyntaxHighlighter.defaults['smart-tabs'] = false;
+	SyntaxHighlighter.all();
+    </script>
+  <style type="text/css">
+  </style></head>
+<body>
+    <div style="text-align: left;"><!-- TemplateBeginEditable name="links" -->
+      <table cellspacing="0" summary="">
+        <tr>
+          <td><a href=><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href=><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+    <!-- TemplateEndEditable --></div>
+<br />
+<div class="WebWorks_Breadcrumbs" style="text-align: left;"><!-- TemplateBeginEditable name="title_1" --><a class="WebWorks_Breadcrumb_Link" href="../2 在AC上开发运行QTP测试/2 在AC上开发运行QTP测试.html">2 在AC上开发运行QTP测试</a><!-- TemplateEndEditable -->：<!-- TemplateBeginEditable name="title_2" --><a class="WebWorks_Breadcrumb_Link" href="../2 在AC上开发运行QTP测试/2-2 Utility_Function Class/2-2 Utility_Function Class.html">2-2 Utility_Function Class </a><!-- TemplateEndEditable -->：<!-- TemplateBeginEditable name="title_3" -->NO<!-- TemplateEndEditable --></div>  
+<hr align="left" />
+<blockquote>
+<div class="H1_Head1"><!-- TemplateBeginEditable name="title_2_present" -->NO<!-- TemplateEndEditable --></div>
+      <!-- TemplateBeginEditable name="content1" -->
+      <div class="BP_Body">
+        <p><!-- #BeginLibraryItem "/Library/founction.lbi" -->Founction<!-- #EndLibraryItem --></p>
+      </div>
+      <!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="content2" -->
+  <div class="BP_Body">
+  <div id="tableFrame">
+ <div id="tableFrameTitle">
+        <ul>
+        <li style="width:596px">Java</li>
+        </ul>
+    </div>
+    <div id="tableCase">
+        <ul>
+        <li style="width:596px">NO</li>
+        </ul>
+    </div>
+      </div>
+</div>
+  <!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="content3" -->
+      <div class="BP_Body">
+        <p>Parameters</p>
+      </div>
+      <!-- TemplateEndEditable -->
+ <!-- TemplateBeginEditable name="content4" -->
+ <div class="BP_Body">
+  <div id="tableFrame">
+    <div id="tableFrameTitle">
+        <ul>
+         <li>Parameters</li>
+       <li>Description</li>
+        </ul>
+    </div>
+    <div id="tableCase">
+        <ul>
+            <li>NO</li>
+            <li>NO</li>           
+        </ul>
+        <ul>
+            <li>NO</li>
+            <li>NO</li>           
+        </ul>    
+    </div>
+      </div>
+      </div>
+      <!-- TemplateEndEditable -->
+      <!-- TemplateBeginEditable name="content5" -->
+      <div class="BP_Body">
+        <p>Returns</p>
+      </div>
+      <!-- TemplateEndEditable -->
+      <!-- TemplateBeginEditable name="content6" -->
+      <div class="BP_Body">
+  <div id="tableFrame">
+  <div id="tableCase">
+        <ul>
+            <li style="width:596px">NO</li> 
+        </ul>
+    </div>
+      </div>
+   </div>
+  <!-- TemplateEndEditable -->
+   <!-- TemplateBeginEditable name="content7" -->
+  <div class="des">
+  <h2 style="color:#006">Description</h2>
+      </div>
+<!-- TemplateEndEditable --> <!-- TemplateBeginEditable name="content8" -->
+      <div class="des">
+        <p>NO。</p>
+      </div>
+      <!-- TemplateEndEditable -->
+         <!-- TemplateBeginEditable name="content9" -->
+  <div class="des">
+  <h2 style="color:#006">History</h2>
+      </div>
+<!-- TemplateEndEditable --> <!-- TemplateBeginEditable name="content10" -->
+      <div class="BP_Body">
+        <p>Qiyi.Yang - created on </p>
+      </div>
+      <!-- TemplateEndEditable -->
+               <!-- TemplateBeginEditable name="content11" -->
+  <div class="des">
+  <h2 style="color:#006">Example</h2>
+      </div>
+<!-- TemplateEndEditable --> <!-- TemplateBeginEditable name="content12" -->
+      <div class="des">
+<pre class="brush:java;gutter:false;toolbar:false;stripBrs:false">
+JAVANO
+</pre>
+  </div>
+      <!-- TemplateEndEditable -->
+</blockquote>
+</body>
+</html>

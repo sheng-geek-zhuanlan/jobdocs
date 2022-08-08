@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>AC</title>
+<script type="text/javascript" src="../lighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushXml.js"></script>
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+ <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+    <link href="../css/des.css" rel="stylesheet" type="text/css" />
+        <link href="../css/table.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+SyntaxHighlighter.defaults['smart-tabs'] = false;
+	SyntaxHighlighter.all();
+    </script>
+  </head>
+<body>
+    <div style="text-align: left;"><!-- TemplateBeginEditable name="links" -->
+      <table cellspacing="0" summary="">
+        <tr>
+          <td><a href="#"><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href="#"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+    <!-- TemplateEndEditable --></div>
+<br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+<!-- TemplateBeginEditable name="title_1" --><a class="WebWorks_Breadcrumb_Link" href="../4 在AC上开发selenium测试/4 在AC上开发selenium测试.html">4 在AC上开发Selinium脚本</a><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="Colon" -->：<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="title_2" -->二级标题<!-- TemplateEndEditable --></div>
+    <hr align="left" />
+<blockquote><!-- TemplateBeginEditable name="title_2_present" -->
+  <div class="H1_Head1">NO</div>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="content1" -->
+      <div class="BP_Body">
+<pre class="brush:java;gutter:false;toolbar:false; collapse:true;stripBrs:false">
+CODENO
+</pre>
+  </div>
+      <!-- TemplateEndEditable -->
+            <!-- TemplateBeginEditable name="content2" -->
+      <div class="BP_Body">
+  <div id="tableFrame">
+    <div id="tableFrameTitle">
+        <ul>
+         <li>Parameters</li>
+       <li>Description</li>
+        </ul>
+    </div>
+    <div id="tableCase">
+        <ul>
+            <li>NO</li>
+            <li>NO</li>         
+        </ul>
+        <ul>
+            <li>NO</li>
+            <li>NO</li>      
+        </ul>    
+    </div>
+      </div>
+      </div>
+      <!-- TemplateEndEditable -->
+          <!-- TemplateBeginEditable name="code" -->
+  <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="content3" -->  
+    <div class="BP_Body">
+         <p>NO</p> 
+      </div>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="content4" --> <div class="des">
+   <ul>
+   <li>NO</li>
+   <li>NO</li>
+   </ul>
+   </div>     
+      <!-- TemplateEndEditable -->
+          <!-- TemplateBeginEditable name="code2" -->
+  <div class="BP_Body">
+<pre class="brush:java;gutter:false;toolbar:false; collapse:true;stripBrs:false">
+CODENO
+</pre>
+  </div><!-- TemplateEndEditable -->
+</blockquote>
+</body>
+</html>

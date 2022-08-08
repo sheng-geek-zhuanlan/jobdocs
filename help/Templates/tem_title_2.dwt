@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>AC</title>
+    <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />    <link rel="StyleSheet" href="../css/des.css" type="text/css" media="all" />
+  </head>
+<body  style="">
+    <div style="text-align: left;"><!-- TemplateBeginEditable name="links" -->
+      <table cellspacing="0" summary="">
+        <tr>
+          <td><a href="calendarfeatures.3.12.html"><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href="calendarfeatures.3.14.html"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+    <!-- TemplateEndEditable --></div>
+<br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+<!-- TemplateBeginEditable name="title_1" --><a class="WebWorks_Breadcrumb_Link" href="calendarfeatures.3.1.html#1108590">1 一级标题日历功能</a><!-- TemplateEndEditable -->：<!-- TemplateBeginEditable name="title_2_present" -->二级标题-Oracle Beehive Extensions for Outlook 的其他日历功能<!-- TemplateEndEditable --></div>
+    <hr align="left" />
+<blockquote>
+      <div class="H1_Head1"><!-- TemplateBeginEditable name="title_present" -->当前标题Oracle Beehive Extensions for Outlook 的其他日历功能<!-- TemplateEndEditable --></div>
+      <!-- TemplateBeginEditable name="content" -->
+      <div class="des">
+        <p>除基本 Outlook 日历功能之外，Oracle Beehive Extensions for Outlook 还提供了以下增强功能：</p>
+      </div>
+      <!-- TemplateEndEditable --></blockquote>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tem_xml.dwt" codeOutsideHTMLIsLocked="false" --><head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>AC</title>
+<script type="text/javascript" src="../lighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushJava.js"></script>
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+ <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+ <link href="../css/des.css" rel="stylesheet" type="text/css" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+  </head>
+<body>
+    <div style="text-align: left;"><!-- InstanceBeginEditable name="links" -->
+            <table cellspacing="0" summary="">
+        <tr>
+        <td><a href="../index.html"><img alt="主页" border="0" src="../images/home.png" /></a></td>
+          <td><a href="1-9 框架功能：运行后报告邮件通知及上传.html"><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href="1-11 应用案例：组合job实现测试代码管理和运行.html"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+    <!-- InstanceEndEditable --></div>
+<br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+<!-- InstanceBeginEditable name="title_1" --><a class="WebWorks_Breadcrumb_Link" href="1 AC入门.html">1 AC入门</a><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="colon" -->：<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="title_2" -->1-10   开发多数据循环测试  <!-- InstanceEndEditable --></div>
+    <hr align="left" />
+<blockquote><!-- InstanceBeginEditable name="title_2_present" -->
+  <div class="H1_Head1">在AC上构建多数据循环测试</div>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="content1" -->
+      <div class="des">
+        <h4>1.	AC多数据循环实现原理</h4>
+        <p>AC提供了多种类型的Test Job，目前包括Ant，QTP，Selenium，Java，Junit，WebService。这些Test Job在TestJobFile.xml中有各自特殊的定义描述，也有通用的子附属器（Appender）。例如：</p>
+ <pre class="brush:xml;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">
+&lt;PreKillProcess name="QTPPro"/>
+&lt;TestData type="iteration"  location="TestData\TestData.xls"/>
+&lt;JobInput name="$MAIL_SUBJECT"/>
+&lt;JobOutput name="$NAME" />
+</pre>       
+        <p><ul>
+        <li>&lt;PreKillProcess>可以实现在本Job运行之前，杀死相关进程。</li>
+        <li>&lt;JobInput>和&lt;；JobOutput>是定义本job的输入和输出，它们就像job的接口，本身没有额外的工作，但是AC会在Job运行之前检查JobInput是否准备好（被之前的Job输出过），在Job运行之后检查JobOutput是否被输出过（被当前Job输出）。</li>
+        <li>其中，使用子附属器&lt;TestData>可以实现TestJob的多数据循环。</li>
+        </ul></p>
+      </div>
+  <div class="des">
+      <h4>2. 如何使用<TestData>完成多数据循环</h4>
+         <p>以QTP为例，可以做如下TestJob定义（可相同适用于selenium等其他job）。</p> 
+          <pre class="brush:xml;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">
+&lt;QTP name="MultipleIterationTesting" description="demo" iteration="ALL">
+&lt;TestData type="iteration" location = "testdata\data.xls"/>
+&lt;/QTP>
+</pre> 
+<p>以上定义，当QTP Job被运行时，首先按照iteration模式加载指定路径下的data.xls，并自动根据数据内容运行所有的循环。在最后的AC hemtl结果报告里会看到每次数据循环为一个新的test。</p>
+<p>目前iteration的数据源支持xml和xls两种文件格式。</p>
+<h5>1)	Excel数据源</h5>
+<p>Excel数据源按如下格式安排：<br />(1)每一个参数是由key和value组成；<br/>(2)每一列是一个循环，增加一列即增加一个循环。</p>
+<p>Excel格式如下：</p>
+<img src="../images/content/1-3.jpg" width="553" height="353" alt="excell格式" />
+<p><ul><li>蓝色为列头（header），已定义格式，不能变更。</li>
+<li>红色为iteration名称，用户可以自定义，在运行结果报告里，test将会被命名为job名称+iteration名称。</li>
+</ul></p>
+<h5>2)	XML数据源</h5>
+<p>Iteration模式下的XML文件内容格式定义如下：<br />(1)根节点为&lt;DataPool>；<br/>(2)每一组循环数据以&lt;key>value&lt;/key>格式挂在&lt;Data>下，循环的名字由indicator属性指定；
+<li>(3)多组循环增添多个&lt;Data>节点，但必须key的数目和名字完全相同。</li>
+</p>
+<pre class="brush:xml;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">
+&lt;?xml version="1.0" encoding="UTF-8" ?>
+&lt;DataPool>
+&lt;Data indicator="zh_CN">
+     &lt;lang>zh_CN&lt;/lang>
+     &lt;subject>NLS_zh_CN_简体中文网页&lt;/subject>
+     &lt;to>mingzhu.niu@oracle.com&lt;/to>
+     &lt;body>Body:Test  包括焦点新闻报道，消费热点，娱乐，无线服务，分类目录搜索。&lt;/body>
+     &lt;attach>NLS_zh_CN_简体中文网页.txt&lt;/attach>
+&lt;/Data>
+&lt;Data indicator="zh_TW">
+     &lt;lang>zh_TW&lt;/lang>
+     &lt;subject>NLS_zh_TW_繁體中文中國台灣&lt;/subject>
+     &lt;to>mingzhu.niu@oracle.com&lt;/to>
+     &lt;body>Body:Test  繁體中文中國台灣測試國際化測試報業消費娛樂無限服務&lt;/body>
+     &lt;attach>NLS_zh_TW_繁體中文中國台灣.txt&lt;/attach>
+&lt;/Data>
+&lt;/DataPool>
+</pre>
+<p>定义格式详见release中jobschemas定义文件。</p>
+      </div>
+ <div class="des">
+        <h4>3.	指定运行某组数据</h4>
+        <p>如果想指定运行某组数据，则在Job的iteration属性中直接指定indicator的名字，多组数据以"，"分割，比如：<br/>
+以QTP为例，可以做如下TestJob定义（可相同适用于selenium等其他job）
+</p>
+ <pre class="brush:xml;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">
+&lt;QTP name="MultipleIterationTesting" description="demo" iteration="zh_CN,zh_TW">
+&lt;TestData type="iteration" location = "testdata\data.xls"/>
+&lt;/QTP>
+</pre>       
+      </div> 
+      <div class="des">
+        <h4>4.	常见问题及解决方法</h4>
+        <p>使用excel数据源时，抛出如下异常:</p>
+ <pre class="brush:xml;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">
+java.lang.NumberFormatException: You cannot get a string value from a numeric cell
+2011-01-10 03:28:38 -System 	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:775)
+2011-01-10 03:28:38 -System 	at framework.DataSource.ReadExcel.getColumnValues(ReadExcel.java:109)
+</pre> 
+<p>问题原因：<br/>
+Excel中包含宏或格式化的cell。
+</p> 
+<p>解决办法:<br>1)更改所有的cell属性为String类型，取消数据有效性校验<br/>2)将excel中文字copy到记事本，再copy回来，以取消格式化
+</p>     
+      </div>    
+      <!-- InstanceEndEditable -->
+            <!-- InstanceBeginEditable name="content2" --><!-- InstanceEndEditable -->
+          <!-- InstanceBeginEditable name="code" -->      <!-- InstanceEndEditable -->
+     <!-- InstanceBeginEditable name="content3" -->  
+      <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="content4" -->
+      <!-- InstanceEndEditable -->
+     <!-- InstanceBeginEditable name="code2" -->
+<!-- InstanceEndEditable --> 
+</blockquote>
+</body>
+<!-- InstanceEnd --></html>

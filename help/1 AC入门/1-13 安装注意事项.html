@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tem_xml.dwt" codeOutsideHTMLIsLocked="false" --><head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>AC</title>
+<script type="text/javascript" src="../lighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushJava.js"></script>
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+ <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+ <link href="../css/des.css" rel="stylesheet" type="text/css" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+  </head>
+<body>
+    <div style="text-align: left;"><!-- InstanceBeginEditable name="links" -->
+            <table cellspacing="0" summary="">
+        <tr>
+        <td><a href="../index.html"><img alt="主页" border="0" src="../images/home.png" /></a></td>
+          <td><a href="1-12 应用案例：部署框架实现团队协作开发.html"><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href="../2 在AC上开发运行QTP测试/2 在AC上开发运行QTP测试.html"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+    <!-- InstanceEndEditable --></div>
+<br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+<!-- InstanceBeginEditable name="title_1" --><a class="WebWorks_Breadcrumb_Link" href="1 AC入门.html">1 AC入门</a><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="colon" -->：<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="title_2" -->1-13   安装注意事项  <!-- InstanceEndEditable --></div>
+    <hr align="left" />
+<blockquote><!-- InstanceBeginEditable name="title_2_present" -->
+  <div class="H1_Head1"> 安装注意事项 </div>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="content1" -->
+      <div class="des">
+      <h4>一.运行环境要求</h4>
+        <p>Jre1.6或以上</p>
+</div>
+      <!-- InstanceEndEditable -->
+            <!-- InstanceBeginEditable name="content2" -->
+            <div class="des">
+         <H4>二.框架目录结构介绍</H4> 
+         <ul>
+         <li>common- MUST,存储框架的lib文件.</li>
+<li>results-MUST,每次运行结果以时间戳为名称存放在本目录。</li>
+<li>manual-Optional,框架的帮助手册。</li>
+<li>testdata- Optional,框架建议存放测试数据的目录。</li>
+<li>testscripts - Optional，框架建议存放测试脚本的目录。</li>
+         </ul>
+ </div>
+      <!-- InstanceEndEditable -->
+          <!-- InstanceBeginEditable name="code" -->
+                <div class="des">
+         <H4>三. 框架所属文件</H4> 
+ <ul>
+ <li>TestJobFile.xml-测试任务的定义文件，可支持QTP，Selenium，Ant，Junit，JDBC，WebService，并提供各个测试任务的dependence定义和之间的数据交互通道。</li>
+ <li>InstanceInfo.xml-测试环境配置文件，供测试脚本使用，以java property格式存储每轮测试经常变化的信息，比如测试服务器，测试版本等等。</li>
+  <li>Config.xml - 框架配置文件，供框架使用，比如timeout等
+MailConfig.xml- 邮件通知配置文件。</li>
+ <li>log4j.properties - log4j的配置文件，可以定义log文件的大小和备份个数。</li>
+ </ul>
+    </div>
+	<!-- InstanceEndEditable -->
+     <!-- InstanceBeginEditable name="content3" -->  
+      <div class="des">
+<h4>四. QTP driver运行环境要求</h4>
+<ul>
+ <li>双击install_driver.bat进行qtp JNI接口注册（一台机子只需注册一次）。
+</li>
+  <li> 打开install_lib目录，双击ToolsackBaseline11.msi进行插件安装。
+</li>
+ </ul>
+ <p>ok，到这里，本机已经准备好运行java qtp了。</p>
+</div><!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="content4" -->
+    <div class="des">
+<h4>五. 配置自动化测试报告邮件通知功能</h4>
+<p>可实现自动化测试运行完自动邮件通知和ftp上传功能，邮件通知可通过配置mailCongfig.xml，自定义smtp服务器，帐号，密码等。</p>
+</div>
+      <!-- InstanceEndEditable -->
+     <!-- InstanceBeginEditable name="code2" -->
+<div class="des">
+<h4>六. 如何调试Job</h4>
+<p>TestJobFile.xml可包含多个不同类型的测试任务，在默认情况下，framework会根据dependence关系排序运行所有的测试任务。如果想单个调试某个测试任务，可在instanceInfo.xml中
+&lt;entry key="COMP">QTP_ACMode&lt;/entry>。COMP指定要运行的测试任务名称。多个测试任务以逗号分割。</p>
+</div>
+<div class="des">
+<h4>七.如何使用AC，请参看doc目录下的相关文档</h4>
+<p>请参看帮助手册帮助手册.chm和framework自带的例子。</p>
+</div>
+<div class="des">
+<h4>八.需求技术帮助</h4>
+<p>如遇到任何问题，请将framework.log打包发送至支持人员。</p>
+</div>
+
+
+<!-- InstanceEndEditable --> 
+</blockquote>
+</body>
+<!-- InstanceEnd --></html>

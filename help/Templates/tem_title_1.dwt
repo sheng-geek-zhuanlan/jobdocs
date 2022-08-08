@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/des.css" type="text/css" media="all" />
+  </head>
+  <body onclick="javascript:WebWorksHTMLHelp.fNotifyClicked();" style="">
+    <div style="text-align: left;"><!-- TemplateBeginEditable name="links" -->
+      <table cellspacing="0" summary="">
+        <tr>
+          <td><a href="docmgmt.2.14.html"><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href="calendarfeatures.3.2.html"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+  <!-- TemplateEndEditable --></div>
+    <br />
+    <!-- TemplateBeginEditable name="title_1" -->
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">1 一级标题日历功能</div>
+    <!-- TemplateEndEditable -->
+  <hr align="left" />
+    <blockquote>
+      <div class="CT_ChapterTitle">
+        <!-- TemplateBeginEditable name="title_1_present" --> 日历功能当前标题<!-- TemplateEndEditable --></div>
+      <div class="des"><!-- TemplateBeginEditable name="content" -->
+        <p>基本可编辑内容。</p> 
+      <!-- TemplateEndEditable --></div>
+    </blockquote>
+  </body>
+</html>

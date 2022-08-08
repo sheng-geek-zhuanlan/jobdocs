@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tem_java.dwt" codeOutsideHTMLIsLocked="false" --><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>AC</title>
+<script type="text/javascript" src="../lighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushXml.js"></script>
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+ <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+    <link href="../css/des.css" rel="stylesheet" type="text/css" />
+        <link href="../css/table.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+SyntaxHighlighter.defaults['smart-tabs'] = false;
+	SyntaxHighlighter.all();
+    </script>
+  </head>
+<body>
+    <div style="text-align: left;"><!-- InstanceBeginEditable name="links" -->      <table cellspacing="0" summary="">
+        <tr>
+        <td><a href="../index.html"><img alt="主页" border="0" src="../images/home.png" /></a></td>
+          <td><a href="3 在AC上开发运行JAVA测试.html"><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href="3-1 Function BeginTestCase(String casename).html"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+    <!-- InstanceEndEditable --></div>
+<br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+<!-- InstanceBeginEditable name="title_1" --><a  class="WebWorks_Breadcrumb_Link" href="3 在AC上开发运行JAVA测试.html">3 在AC上开发运行JAVA测试</a><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Colon" -->：<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="title_2" -->开发指南：如何在AC上开发运行JAVA测试<!-- InstanceEndEditable --></div>
+    <hr align="left" />
+<blockquote><!-- InstanceBeginEditable name="title_2_present" -->
+  <div class="H1_Head1">开发指南：如何在AC上开发运行JAVA测试</div>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="content1" -->
+<div class="des">
+ <br />
+   <ul>
+   <li>在当前classpath中包含ac_framework.jar。</li>
+   <li>在java文件中做如下开发，以下是一个根据环境文件中指定的软件版本（build），来决定测试版本的案例。</li>
+   <pre class="brush:java;gutter:false;toolbar:false; collapse:true;stripBrs:false">
+    import framework.JobDOM.ACJavaJob;
+    public class WorkFilesLoader extends ACJavaJob{
+    public WorkFilesLoader() {
+    }
+    public void Run(){
+               String buildVersion = getEnvProperty("BUILD");
+        if(buildVersion.contains("MAIN")){
+           writeIntoACChannel ("$TESTVERSION","2.1");
+            outputFrameLog("Framework is to run 2.1 test based on the $BUILD value: "+buildVersion);
+        }else if(buildVersion.contains("2.0")){
+            outputFrameLog("Framework is to run 2.0 test based on the $BUILD value: "+buildVersion);
+            setOutputValue("$TESTVERSION","2.0");
+        }else
+           writeIntoACChannel("$TESTVERSION","2.0");
+        reportPass("All work files is ready!");
+        try{
+           //Thread.sleep(2000)  
+        }catch(Exception e){
+            outputFrameLog("Error: Exception occurs!");
+            reportFail("Error: the err msg is "+e.getMessage());
+            }       
+    }
+</pre>
+   </ul>
+   </div>
+      <!-- InstanceEndEditable -->
+            <!-- InstanceBeginEditable name="content2" -->
+     
+      <!-- InstanceEndEditable -->
+          <!-- InstanceBeginEditable name="code" -->
+ 
+ 
+ <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="content3" -->  
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="content4" -->
+      
+      <!-- InstanceEndEditable -->
+          <!-- InstanceBeginEditable name="code2" -->
+ 
+  <!-- InstanceEndEditable -->
+</blockquote>
+</body>
+<!-- InstanceEnd --></html>

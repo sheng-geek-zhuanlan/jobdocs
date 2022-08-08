@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>AC</title>
+    <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+        <link rel="StyleSheet" href="../css/des.css" type="text/css" media="all" />
+  </head>
+<body style="">
+    <div style="text-align: left;"><!-- TemplateBeginEditable name="links" -->
+      <table cellspacing="0" summary="">
+        <tr>
+          <td><a href="calendarfeatures.3.9.html"><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href="calendarfeatures.3.11.html"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+  <!-- TemplateEndEditable --></div>
+  <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;"><!-- TemplateBeginEditable name="title_1" --><a class="WebWorks_Breadcrumb_Link" href="calendarfeatures.3.1.html#1104949">3 日历功能</a><!-- TemplateEndEditable -->：<!-- TemplateBeginEditable name="title_2" --><a class="WebWorks_Breadcrumb_Link" href="calendarfeatures.3.8.html#1104949">Oracle Beehive Extensions for Outlook 和基本日历功能 </a><!-- TemplateEndEditable -->：<!-- TemplateBeginEditable name="title_3" -->与会者状态<!-- TemplateEndEditable --></div>
+  <hr align="left" />
+<blockquote>
+  <div class="H2_Head2"><!-- TemplateBeginEditable name="title_3_present" -->与会者状态<!-- TemplateEndEditable --></div>
+      <!-- TemplateBeginEditable name="content" -->
+      <div class="des">Oracle Beehive Server自动跟踪会议或活动的每个被邀请者的回复。您接受或谢绝收件箱中的会议请求时，Oracle Beehive Extensions for Outlook 会立即在服务器中更新会议，并使信息可供其他用户使用。</div>
+      <!-- TemplateEndEditable -->
+</blockquote>
+</body>
+</html>
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/des.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/table.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/des.css" type="text/css" media="all" />
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../lighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushXml.js"></script>
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+  </head>
+  <body>
+    <!-- TemplateBeginEditable name="links" -->
+    <div style="text-align: left;">
+      <table cellspacing="0" summary="">
+        <tr>
+          <td><a href="docmgmt.2.14.html"><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href="calendarfeatures.3.2.html"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>    
+           </table>
+      </div>
+   <!-- TemplateEndEditable -->
+    <br />
+    <!-- TemplateBeginEditable name="title_1" -->
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">2 Develop QTP tests on AC</div>
+    <!-- TemplateEndEditable -->
+  <hr align="left" />
+    <blockquote>
+      <div class="CT_ChapterTitle" style="text-align:center">
+        <!-- TemplateBeginEditable name="title_1_present" --> Run QTP Tests On Test Ant<!-- TemplateEndEditable --></div>
+      <div class="des"><!-- TemplateBeginEditable name="content" -->
+      <h3>1.Develop QTP tests on TestAnt</h3>
+        <p>TestAnt could run QTP test scripts with it's QTP engine, QTP engine is implemented by Java JNI technology. So you need to register jcom dll on the QTP machine(One machine needs to be registered only ONCE, refer to the chapter "Install QTP dirver" for detail instructions )
+Java run QTP will bring powerful feature and convienence for your QTP automation:</p> 
+<ul>
+<li>Launch QTP and initialize the test environment and related libs for case.</li>
+<li>Monitor the QTP running status in the log console window, which will keep updating the logoutput by QTP tests.</li>
+<li>3.	Build xml+xsl report, including logs, screen shot, which could be presented as web pages.</li>
+<li>4.	Framework provide the depedency and global data channel which allow QTP interact with other jobs by job input and output, for example, QTP do transaction on UI, and check the data in database by JDBC engine, query the transaction by Selenium Engine.</li>
+</ul>
+<h4>1.1 Install QTP driver on the windows machine </h4>
+<p>Unzip the testant package, follow the steps:</p>
+<ul>
+<li>Double click install_driver.bat to register JNI interface. (need only once register on one machine).</li>
+<li>Opne install_lib directory，double click ToolsackBaseline11.msi to install a sockt plug in.</li>
+</ul>
+<p>ok，here, your machine is ready for running QTP cases.</p>
+<h4>1.2  Define your QTP test Job in TestJobFile.xml</h4>
+<p>TestJobFile.xml is a format-defined job file which TestAnt will run. 
+QTP job is as following</p>
+
+      <!-- TemplateEndEditable --></div>
+    </blockquote>
+  </body>
+</html>

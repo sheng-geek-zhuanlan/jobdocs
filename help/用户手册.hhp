@@ -1,0 +1,289 @@
+[OPTIONS]
+Compatibility=1.1 Or later
+Default Window=Main
+Default topic=index.html
+Default font=??,9,1
+Contents file=ACManual.hhc
+Index file=ACManual.hhk
+Display compile progress=Yes
+Full-text search=Yes
+Language=0x804 中文(中国)
+
+[WINDOWS]
+Main="AC手册","ACManual.hhc","ACManual.hhk","index.html","index.html",,,,,0x420,180,0x104E,[80,60,880,660],0x0,0x0,,,,,0
+
+[FILES]
+1 AC入门\1 AC入门.html
+1 AC入门\1-1 框架介绍.html
+1 AC入门\1-10 开发多数据循环测试.html
+1 AC入门\1-11 应用案例：组合job实现测试代码管理和运行.html
+1 AC入门\1-12 应用案例：部署框架实现团队协作开发.html
+1 AC入门\1-13 安装注意事项.html
+1 AC入门\1-2 相关框架文件.html
+1 AC入门\1-3 框架包介绍.html
+1 AC入门\1-4 定义 TestJobFile.xml.html
+1 AC入门\1-4 定义TestJobFile.xml.html
+1 AC入门\1-5 定义InstanceInfo.xml.html
+1 AC入门\1-6 定义Config.xml.html
+1 AC入门\1-7 运行测试和查看报告.html
+1 AC入门\1-8 应用案例：银行系统应用案例.html
+1 AC入门\1-9 框架功能：运行后报告邮件通知及上传.html
+10 常见问题及解决\10 常见问题及解决.html
+2 在AC上开发运行QTP测试\2 在AC上开发运行QTP测试.html
+2 在AC上开发运行QTP测试\2-1 Global Variables.html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2 Utility_Function Class.html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-1 Function LaunchApp (params, strApplication).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-10 Function EnvInitByLang(strLanguage,strTestStartTime).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-11 Function EnvClearup.html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-12 Function AddToTestResult (constStatus, strDetails).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-13 Function ReportPass (strDetails).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-14 Function ReportWarning (strDetails).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-15 Function ReportFail (strDetails).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-16 Function LoadQAPropertyData(strFileName).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-17 Function IsValidObject (obj).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-18 Function VerifyExist (obj).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-19 Function VerifyEnabled (obj).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-2 Function SetTimeout(intTimeout).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-20  Function VerifyProperty (obj, strPropertyName, strExpectedValue).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-21 Function OutputProperty (obj, strPropertyName).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-22 Function VerifyValue (obj, ExpectedValue).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-23 Function VerifyText (obj, ExpectedText).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-24 Function VerifyChecked (obj, strExpectedChecked).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-25 Function VerifyDate (obj, ExpectedDate).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-26 Function VerifySelection (obj, strExpectedSelection).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-27 Function VerifyPosition (obj, strExpectedPosition).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-28 Function GetValueProperty (obj).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-29 Function GetDateProperty (obj).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-3 Function SwitchClientType(strType).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-30 Function GetTextProperty (obj).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-31 Function GetCheckedProperty (obj).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-32 Function GetSelectionProperty (obj).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-33 Function GetPositionProperty (obj).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-34 Function CreatePngFileName().html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-35 Function GetTime().html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-36 Function VerifyDateFormat(strDate).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-37 Function VerifyNumberFormat(strNumber).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-38 Function VerifyCurrencyFormat(strCurrency).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-39 Function RegExpTest(patrn, strng).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-4 Function GetEnvVariable(strVName).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-40 Function ArraySearch(arrayItems, strItemName).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-41 Function SetGlobalData(strKey,strValue).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-42 Function FileNameFromDate(strLanguage).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-43 Function AddToTestLog(strFileName,strMsg).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-44 Function WriteLog(strMsg).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-45 Function GetCurrDir().html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-46 Function GetTestStartTime().html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-47 Function getErrCode().html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-48 Function getErrMsg().html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-49 Function LoadDataFromFile (strFileName).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-5 Function GetRegVariable(strKey).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-50 Function LoadTestDataByLang(strFileName,strLanguage).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-51 Function writeIntoACChannel(key,value).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-52 Function getDataFromACChannel(key).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-53 Function getDataArrFromACChannel (key).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-6 Function GetProductVersion(strAppName).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-7 Function UnzipFile(strFileName,strDesDir).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-8 Function UnzipQTPscreenshot(strSrcDir,strDesDir).html
+2 在AC上开发运行QTP测试\2-2 Utility_Function Class\2-2-9 Function EnvInit().html
+2 在AC上开发运行QTP测试\开发指南：如何在AC上开发运行QTP测试.html
+3 在AC上开发运行JAVA测试\3 在AC上开发运行JAVA测试.html
+3 在AC上开发运行JAVA测试\3-1 Function BeginTestCase(String casename).html
+3 在AC上开发运行JAVA测试\3-10 Function getDataProperty(String paraname).html
+3 在AC上开发运行JAVA测试\3-11 Function getInputValueArr(key).html
+3 在AC上开发运行JAVA测试\3-12 Function writeIntoACChannel(String strKey,String value).html
+3 在AC上开发运行JAVA测试\3-13 Function outputFrameLog(String log).html
+3 在AC上开发运行JAVA测试\3-2 Function endTestCase().html
+3 在AC上开发运行JAVA测试\3-3 Function beginTest(String testname).html
+3 在AC上开发运行JAVA测试\3-4 Function reportPass(String msg).html
+3 在AC上开发运行JAVA测试\3-5 Function reportFail(String msg).html
+3 在AC上开发运行JAVA测试\3-6 Function setOutputValue(String paraname, String paravalue).html
+3 在AC上开发运行JAVA测试\3-7 Function getInputValue(String paraname).html
+3 在AC上开发运行JAVA测试\3-8 Function getEnvProperty(String paraname).html
+3 在AC上开发运行JAVA测试\3-9 Function getConfProperty(String paraname).html
+3 在AC上开发运行JAVA测试\开发指南：如何在AC上开发运行JAVA测试.html
+4 在AC上开发selenium测试\4 在AC上开发selenium测试.html
+4 在AC上开发selenium测试\4-1 Function pass(String msg).html
+4 在AC上开发selenium测试\4-10 Function verifyEquals(String,String).html
+4 在AC上开发selenium测试\4-11 Function assertEquals(boolean).html
+4 在AC上开发selenium测试\4-12 Function assertEquals(String,String).html
+4 在AC上开发selenium测试\4-2 Function fail(String msg).html
+4 在AC上开发selenium测试\4-3 Function getInputValue(String paraname).html
+4 在AC上开发selenium测试\4-4 Function setOutputValue(String paraname,String paravalue).html
+4 在AC上开发selenium测试\4-5 Function getEnvProperty(String paraname).html
+4 在AC上开发selenium测试\4-6 Function getConfProperty(String paraname).html
+4 在AC上开发selenium测试\4-7 Function getDataProperty(String paraname).html
+4 在AC上开发selenium测试\4-8 Function getInputValueArr(key).html
+4 在AC上开发selenium测试\4-9 Function verifyEquals(boolean).html
+4 在AC上开发selenium测试\开发指南：如何在AC上开发selenium测试.html
+5 在AC上开发运行Junit测试\5 在AC上开发运行Junit测试.html
+5 在AC上开发运行Junit测试\开发指南：如何在AC上开发运行Junit测试.html
+6 在AC上开发运行ANT测试\6 在AC上开发运行ANT测试.html
+6 在AC上开发运行ANT测试\开发指南：如何在AC上开发运行ANT测试.html
+7 在AC上开发运行DB测试\7 在AC上开发运行DB测试.html
+7 在AC上开发运行DB测试\开发指南：如何在AC上开发运行DB测试.html
+8 在AC上开发运行webService测试\8 在AC上开发运行webservice测试.html
+8 在AC上开发运行webService测试\开发指南：如何在AC上开发运行webservice测试.html
+9 在AC上运行测试vbs、perl脚本\9 在AC上运行测试vbs、perl脚本.html
+9 在AC上运行测试vbs、perl脚本\开发指南：如何在AC上运行测试vbs、perl脚本.html
+css\calendarfeatures.css
+css\contacts.css
+css\des.css
+css\docmgmt.css
+css\gal.css
+css\gettingstarted.css
+css\links.css
+css\mail.css
+css\offline.css
+css\othershare.css
+css\preferences.css
+css\serverlocalstorage.css
+css\table.css
+css\troubleshooting.css
+css\webworks.css
+css\workspaces.css
+images\collapse.jpg
+images\content\1-1.jpg
+images\content\1-12-1.png
+images\content\1-12-2.png
+images\content\1-12-3.png
+images\content\1-12-4.png
+images\content\1-2.jpg
+images\content\1-3.jpg
+images\content\1-4.jpg
+images\content\1-5.jpg
+images\content\2-1.jpg
+images\content\2-2.jpg
+images\content\4-1.jpg
+images\content\4-2.jpg
+images\content\6-1.jpg
+images\content\6-2.jpg
+images\content\ACArch.JPG
+images\content\cover.jpg
+images\home.png
+images\index.jpg
+images\next.jpg
+images\nextx.jpg
+images\prev.jpg
+images\prevx.jpg
+index.html
+Library\founction.lbi
+lighter\compass\_theme_template.scss
+lighter\compass\config.rb
+lighter\compass\shCore.scss
+lighter\compass\shCoreDefault.scss
+lighter\compass\shCoreDjango.scss
+lighter\compass\shCoreEclipse.scss
+lighter\compass\shCoreEmacs.scss
+lighter\compass\shCoreFadeToGrey.scss
+lighter\compass\shCoreMDUltra.scss
+lighter\compass\shCoreMidnight.scss
+lighter\compass\shCoreRDark.scss
+lighter\compass\shThemeDefault.scss
+lighter\compass\shThemeDjango.scss
+lighter\compass\shThemeEclipse.scss
+lighter\compass\shThemeEmacs.scss
+lighter\compass\shThemeFadeToGrey.scss
+lighter\compass\shThemeMDUltra.scss
+lighter\compass\shThemeMidnight.scss
+lighter\compass\shThemeRDark.scss
+lighter\index.html
+lighter\LGPL-LICENSE
+lighter\MIT-LICENSE
+lighter\scripts\shAutoloader.js
+lighter\scripts\shBrushAppleScript.js
+lighter\scripts\shBrushAS3.js
+lighter\scripts\shBrushBash.js
+lighter\scripts\shBrushColdFusion.js
+lighter\scripts\shBrushCpp.js
+lighter\scripts\shBrushCSharp.js
+lighter\scripts\shBrushCss.js
+lighter\scripts\shBrushDelphi.js
+lighter\scripts\shBrushDiff.js
+lighter\scripts\shBrushErlang.js
+lighter\scripts\shBrushGroovy.js
+lighter\scripts\shBrushJava.js
+lighter\scripts\shBrushJavaFX.js
+lighter\scripts\shBrushJScript.js
+lighter\scripts\shBrushPerl.js
+lighter\scripts\shBrushPhp.js
+lighter\scripts\shBrushPlain.js
+lighter\scripts\shBrushPowerShell.js
+lighter\scripts\shBrushPython.js
+lighter\scripts\shBrushRuby.js
+lighter\scripts\shBrushSass.js
+lighter\scripts\shBrushScala.js
+lighter\scripts\shBrushSql.js
+lighter\scripts\shBrushVb.js
+lighter\scripts\shBrushXml.js
+lighter\scripts\shCore.js
+lighter\scripts\shLegacy.js
+lighter\src\jquer.js
+lighter\src\shAutoloader.js
+lighter\src\shCore.js
+lighter\src\shLegacy.js
+lighter\styles\shCore.css
+lighter\styles\shCoreDefault.css
+lighter\styles\shCoreDjango.css
+lighter\styles\shCoreEclipse.css
+lighter\styles\shCoreEmacs.css
+lighter\styles\shCoreFadeToGrey.css
+lighter\styles\shCoreMDUltra.css
+lighter\styles\shCoreMidnight.css
+lighter\styles\shCoreRDark.css
+lighter\styles\shThemeDefault.css
+lighter\styles\shThemeDjango.css
+lighter\styles\shThemeEclipse.css
+lighter\styles\shThemeEmacs.css
+lighter\styles\shThemeFadeToGrey.css
+lighter\styles\shThemeMDUltra.css
+lighter\styles\shThemeMidnight.css
+lighter\styles\shThemeRDark.css
+lighter\tests\.rvmrc
+lighter\tests\brushes\sass.html
+lighter\tests\brushes_tests.html
+lighter\tests\cases\001_basic.html
+lighter\tests\cases\002_brushes.html
+lighter\tests\cases\003_script_tag.html
+lighter\tests\cases\004_url_parsing.html
+lighter\tests\cases\005_no_gutter.html
+lighter\tests\cases\006_pad_line_numbers.html
+lighter\tests\cases\007_collapse.html
+lighter\tests\cases\007_collapse_interaction.html
+lighter\tests\cases\008_first_line.html
+lighter\tests\cases\009_class_name.html
+lighter\tests\cases\010_highlight.html
+lighter\tests\cases\011_smart_tabs.html
+lighter\tests\cases\012_server_side.html
+lighter\tests\cases\013_html_script.html
+lighter\tests\cases\014_legacy.html
+lighter\tests\commonjs_tests.js
+lighter\tests\js\jquery-1.4.2.js
+lighter\tests\js\qunit.css
+lighter\tests\js\qunit.js
+lighter\tests\syntaxhighlighter_tests.html
+lighter\tests\theme_tests.html
+lighter\tests\webrick.rb
+lighter\tests\webrick.sh
+scripts\expand.js
+scripts\page.js
+scripts\popup.js
+scripts\seealso.js
+SpryAssets\SpryAccordion.css
+SpryAssets\SpryAccordion.js
+SpryAssets\SpryCollapsiblePanel.css
+SpryAssets\SpryCollapsiblePanel.js
+Templates\_notes\page_title_1.dwt.mno
+Templates\_notes\pages.dwt.mno
+Templates\_notes\tem_java.dwt.mno
+Templates\_notes\tem_title_1.dwt.mno
+Templates\_notes\tem_title_2.dwt.mno
+Templates\tem_1.dwt
+Templates\tem_d2_index.dwt
+Templates\tem_d2_T2.dwt
+Templates\tem_d2_T3.dwt
+Templates\tem_intro.dwt
+Templates\tem_java.dwt
+Templates\tem_title_1.dwt
+Templates\tem_title_2.dwt
+Templates\tem_title_3.dwt
+Templates\tem_xml.dwt

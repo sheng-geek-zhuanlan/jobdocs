@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>AC</title>
+<script type="text/javascript" src="../lighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushJava.js"></script>
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+ <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+ <link href="../css/des.css" rel="stylesheet" type="text/css" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+  </head>
+<body>
+    <div style="text-align: left;"><!-- TemplateBeginEditable name="links" -->
+      <table cellspacing="0" summary="">
+        <tr>
+          <td><a href="#"><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href="#"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+    <!-- TemplateEndEditable --></div>
+<br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+<!-- TemplateBeginEditable name="title_1" --><a class="WebWorks_Breadcrumb_Link" href="#">1 一级标题日历功能</a><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="colon" -->：<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="title_2" -->二级标题-Oracle Beehive Extensions for Outlook 的其他日历功能<!-- TemplateEndEditable --></div>
+    <hr align="left" />
+<blockquote><!-- TemplateBeginEditable name="title_2_present" -->
+  <div class="H1_Head1">Oracle Beehive Extensions for Outlook</div>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="content1" -->
+      <div class="BP_Body">
+        <p>config.xml遵循Java Properties规范， 适合存储配置数据。</p>
+      </div>
+      <!-- TemplateEndEditable -->
+            <!-- TemplateBeginEditable name="content2" -->
+      <div class="BP_Body">
+         <p> 以下是一个config.xml的定义样例  </p> 
+      </div>
+      <!-- TemplateEndEditable -->
+          <!-- TemplateBeginEditable name="code" -->
+  <div class="BP_Body">
+<pre class="brush:xml;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">
+<properties>
+<comment>This is Config xml for AC agent,the screen shot value could be ERROR,NONE,ALL</comment>
+<entry key="waitTimeHigh">50</entry>
+</properties>
+</pre>
+    </div><!-- TemplateEndEditable -->
+     <!-- TemplateBeginEditable name="content3" -->  
+      <div class="des">
+<ul>  
+<li>ava Properties规范， 适合存储配置数据。</li>
+<li>ava Properties规范， 适合存储配置数据。</li>
+</ul>
+	</div><!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="content4" -->
+      <div class="BP_Body">
+         <p> 以下是一个config.xml的定义样例  </p> 
+      </div>
+      <!-- TemplateEndEditable -->
+     <!-- TemplateBeginEditable name="code2" -->
+  <div class="BP_Body">
+<pre class="brush:xml;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">
+<properties>
+<comment>This is Config xml for AC agent,the screen shot value could be ERROR,NONE,ALL</comment>
+<entry key="waitTimeHigh">50</entry>
+</properties>
+</pre>
+    </div><!-- TemplateEndEditable --> 
+</blockquote>
+</body>
+</html>

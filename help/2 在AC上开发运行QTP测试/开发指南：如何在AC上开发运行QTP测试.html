@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tem_1.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link rel="StyleSheet" href="../css/calendarfeatures.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/des.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/table.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="../css/des.css" type="text/css" media="all" />
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../lighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="../lighter/scripts/shBrushXml.js"></script>
+<link href="../lighter/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+  </head>
+  <body>
+    <!-- InstanceBeginEditable name="links" -->
+            <table cellspacing="0" summary="">
+        <tr>
+        <td><a href="../index.html"><img alt="主页" border="0" src="../images/home.png" /></a></td>
+          <td><a href="2 在AC上开发运行QTP测试.html"><img alt="上一页" border="0" src="../images/prev.jpg" /></a></td>
+          <td><a href="2-1 Global Variables.html"><img alt="下一页" border="0" src="../images/next.jpg" /></a></td>
+        </tr>
+      </table>
+  <!-- InstanceEndEditable -->
+    <br />
+    <!-- InstanceBeginEditable name="title_1" -->
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="2 在AC上开发运行QTP测试.html">2 在AC上开发运行QTP测试</a>：开发指南：如何在AC上运行开发QTP测试</div>
+    <!-- InstanceEndEditable -->
+  <hr align="left" />
+    <blockquote>
+      <div class="CT_ChapterTitle" style="text-align:center">
+        <!-- InstanceBeginEditable name="title_1_present" -->
+        <p align="center"><span class="WebWorks_Breadcrumbs" style="text-align: left;">开发指南：如何在AC上运行开发QTP测试</span></p>
+        <!-- InstanceEndEditable --></div>
+      <div class="des"><!-- InstanceBeginEditable name="content" -->
+      <p>AC提供两种方式运行QTP测试，脚本模式和工厂模式。</p>
+      <p>
+      <ul><li><strong>脚本模式</strong>：将基于录制回放生成的QTP脚本进行Job定义，由AC直接驱动运行。脚本模式适合自动化测试初步阶段，或规模不大的自动化测试。</li>
+<li><strong>工厂模式</strong>：按照AC开发规范，进行脚本开发，每一个vbs function即为一个Test，添加一个test就添加一个function，非常适合大规模自动化测试开发。</li>
+</ul>
+</p>
+      <p></p>
+      <h3>1.  脚本模式</h3>
+        <p>QTP脚本模式Job定义如下：</p>
+  <pre class="brush:xml;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">  
+ &lt;QTP name="FlightDemo" description="订机票"  depends=" " iteration="ALL">
+		&lt;PreKillProcess name="QTPro"/>
+         &lt;PreKillProcess name="QTPAutomationAgent"/>
+&lt;JobInput name="UserName"/>
+		&lt;JobInput name="Password"/>
+		&lt;JobOutput name="FlightNo"/>
+		&lt;TestData type="iteration" location="testdata\data.xls"/>
+		&lt;Lib location="common\lib\lib_utilityvbs"/>
+		&lt;Run path="testcase\qtp\flightdemo">&lt;/Run>
+&lt;/QTP>
+</pre>
+<p>脚本模式下，QTP有如下Appenders（附属器）：</p>        
+<ul>
+<li>&lt;PreKillProcess>: 在Job运行之前预杀指定进程。</li>
+<li>&lt;JobInput>: Job输入定义，在脚本中调用。</li>
+<li>getDataFromACChannel(key)来获得输入参数值。</li>
+<li>&lt;JobOutput>: Job输出定义，在脚本中调用。</li>
+<li>writeIntoACChannel(key,value)来对外输出参数。</li>
+<li>&lt;Lib>: vbs库文件，AC会在启动QTP时，加载进QTP的执行环境中。</li>
+<li>&lt;TestData>: 测试数据，AC会在QTP脚本运行之前读取数据，写入AC全局数据通道，在脚本中使用同样的getDataFromACChannel(key)来获得数据。Type支持。</li>
+<li>iteration,xls,xml，数据源支持xls和xml。有关iteration模式（多数据循环），参看帮助手册中相关文章。</li>
+</ul>
+<p>QTP job有如下属性：</p>        
+<ul>
+<li>Name：job名称。</li>
+<li>Description：Job描述信息</li>
+<li>Depends：job依赖，另外一个job名字，多个job使用"，"分割。</li>
+</ul>
+<p>QTP的运行信息设置：<br/>
+&lt;Run path="testcase\qtp\transfer_bank"><br/>
+Path指向QTP脚本路径，在本例中脚本名称为flightdemo。其中name和description将会呈现在最终AC report里。
+</p>
+ <h3>2.  工厂模式</h3>
+        <p>基于录制生成的QTP脚本，是面向功能的，而不是结构化的测试案例。这使得QTP在维护和增加测试案例时，成本十分昂贵。为此，AC引入工厂开发模式，使得QTP的开发像Junit一样清晰方便。</p>
+        <p>QTP的工厂开发模式有如下规范：</p>
+ <ul>
+<li>每个QTP的测试案例在表现形式上都是一个Vbscript的函数，测试案例的增加/删除通过增加/删除一个VBS的Function来达到。</li>
+<li>工厂模式不支持对象库模式的脚本，所有的功能都以Description编程来实现。</li>
+<li>使用checkDependence函数来检查每个测试案例的运行结果状态。</li>
+<li>调用writeIntoACChannel和getDataFromACChannel来完成测试案例之间的数据交互。</li>
+<li>writeIntoACChannel(key,value)来对外输出参数。</li>
+<li>每个测试案例都是一个函数，一个函数是否成为一个测试案例取决于在TestJobFile.xml中的定义。</li>
+</ul>       
+<p>示例：<br/>
+QTP自带的Flight演示程序，录制生成的脚本如下模式：</br>
+</p>    
+  <pre class="brush:java;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true">  
+ '登录客户端
+Dialog("Login").WinEdit("Agent Name:").Set "testing"
+Dialog("Login").WinEdit("Password:").Set "mercury"
+Dialog("Login").WinButton("OK").Click
+'输入机票信息，下订单
+Window("Flight Reservation").ActiveX("MaskEdBox").Type "081210"
+Window("Flight Reservation").WinComboBox("Fly From:").Select "Frankfurt"
+Window("Flight Reservation").WinComboBox("Fly To:").Select "London"
+Window("Flight Reservation").WinButton("Insert Order").Click
+Window("Flight Reservation").Close
+</pre>
+<p>从QTP录制脚本转换成工厂模式脚本，步骤如下：</p>        
+<p>1) 创建一个testcase.vbs</p>
+<p>2) 将原始脚本进行description改写，并按照工厂模式规范，写入testcase.vbs 
+开发login作为一个Test，如下：</p>
+  <pre class="brush:java;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true"> 
+  
+Function login
+
+'调用框架函数ReportRunningInfo，写日志
+	ReportRunningInfo "start to run login test case"
+	……………Description创建……………………
+	Dialog(dlgLoginDesc).WinEdit(editUserDesc).set getDataFromACChannel("user")
+	Dialog(dlgLoginDesc).WinEdit(editPasswdDesc).set getDataFromACChannel("passwd")
+	Dialog(dlgLoginDesc).WinButton(btnOKDesc).Click
+	if(Window(flightWindowDesc).Exist(30)) Then
+		'调用reportPass，向AC报告当前案例成功状态
+		reportPass "has sigin in successfully"
+		login = True
+	Else
+		'调用reportFail，向AC报告当前案例失败状态
+		reportFail "failed to sigin in"
+		login = False
+	End If
+	'将用户名写入数据通道，供后续执行的测试案例使用.  
+	username = "sheng.liu"
+	writeIntoACChannel "displayname",username
+    
+End Function
+</pre>
+<p>开发bookFlight作为一个Test</p>
+  <pre class="brush:java;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true"> 
+  
+  Function bookFlight
+  
+	ReportRunningInfo "start to run book flight test case"
+	'检查login案例是否成功，如果失败，当前案例则返回失败.
+	If Not CheckDependence("login") Then
+		bookFlight = False
+		Exit Function
+	End If
+	…………..Description创建及调用……………………
+	'从数据通道中获得login案例写入的用户名，作为订单用户名下单. 
+	username = getDataFromACChannel("displayname")
+	Window(flightWindowDesc).WinEdit(nameEditDesc).Set username
+Window(flightWindowDesc).WinButton(insertBtnDesc).Click
+	……………………….
+    
+End Function
+  </pre>
+  <p>3)定义TestJobFile.xml文件，指定工厂模式和测试案例。</p>
+    <pre class="brush:java;gutter: false;toolbar:false; collapse:true;stripBrs:false;smart-tabs:true"> 
+    &lt;QTP  name="QTP_DesktopClientTest_AC" description="demo" factoryMode="true" depends=" "  iteration="">
+		&lt;Lib location="testscripts\DesktopClient\testcase.vbs"/>
+		&lt;Testdata type="xsl" location="data\data_global_shining.xls"/>
+		&lt;Testdata type="xsl" location="data\data_global_shining.xls"/>
+		&lt;Testdata type="iteration"  location="data\testdata.xls"/>
+		&lt;TestJob name="test.vbs" description="demo" depends="">
+			&lt;Case name="flightDemo" description="to test flight system" >
+&lt;Test name="login" description="login flight"/>
+&lt;Test name="bookFlight" description="book flight"/>
+&lt;/Case>
+		&lt;/TestJob>
+	&lt;/TestJob>
+    </pre>
+    <p>4)运行AC框架</p>
+    <p>AC会从指定的lib路径中获得testcase.vbs，然后以工厂模式运行login和bookflight两个测试案例。并最终形成测试报告。</p>
+    <p>从上面的示例可以看出，经过工厂模式改写后，QTP自动化测试具有以下优势：</p>
+    <ul>
+<li>测试案例的粗细粒度更加细微，可以有效地与手工测试案例形成一一对应的映射关系。</li>
+<li>扩展性大大增强，增加新的功能点，只需开发新的function函数即可集成到AC中。</li>
+<li>案例之间的依赖关系和数据交互更加密切。</li>
+</ul>
+<p>总之，工厂模式非常实用于大规模的QTP的自动化测试脚本开发，大大减少维护成本，提升开发效率。</p>
+
+
+      <!-- InstanceEndEditable --></div>
+    </blockquote>
+  </body>
+<!-- InstanceEnd --></html>
